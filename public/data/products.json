@@ -898,13 +898,13 @@
       "key": "Andorid",
       "title": "Bunkeriza tu Android",
       "price": 127,
-      "bgColor": "#F9DBBFa0",
+      "bgColor": "#666",
       "currency": "€",
-      "Bg": "https://vz-0b00e04e-39c.b-cdn.net/71afb805-0b47-43df-89c2-727a2bb30e3e/thumbnail_bfc540c6.jpg",
-      "description": "Protege tu iPhone mejor que un espía, con máxima privacidad. Sin necesidad de conocimientos previos",
+      "Bg": "https://vz-0b00e04e-39c.b-cdn.net/6ab241a3-e9d6-46d5-971d-39f528afdbc7/thumbnail_64a8bbaa.jpg",
+      "description": "Deja de permitir que tu móvil te escuche y blinda tu Android como nadie. Sin necesidad de conocimiento previo",
       "before": false,
-      "video": "71afb805-0b47-43df-89c2-727a2bb30e3e",
-      "poster": "https://vz-0b00e04e-39c.b-cdn.net/71afb805-0b47-43df-89c2-727a2bb30e3e/thumbnail_bfc540c6.jpg",
+      "video": "6ab241a3-e9d6-46d5-971d-39f528afdbc7",
+      "poster": "https://vz-0b00e04e-39c.b-cdn.net/6ab241a3-e9d6-46d5-971d-39f528afdbc7/thumbnail_64a8bbaa.jpg",
       "order": 1,
       "Destacado": false,
       "proximamente": false,
@@ -912,13 +912,13 @@
         {
           "type": "tarjeta",
           "text": "Obtener con Tarjeta",
-          "link": "https://pay.hotmart.com/M98315225T?checkoutMode=10&bid=1746025383335",
+          "link": "https://pay.hotmart.com/X99332972Q?checkoutMode=10&bid=1746027999482",
           "var": "primary"
         },
         {
           "type": "Bitcoin",
           "text": "Obtener con Bitcoin",
-          "link": "https://pay.hotmart.com/I97433852A",
+          "link": "",
           "var": "secondary"
         }
       ],
@@ -930,27 +930,27 @@
       ],
       "points": [
         {
-          "icon": "/img/Finales/BulletsPoint/IPhone/OnlyIcons/1.png",
-          "point": "*Cifrado* de cualquier *conexión* del *iPhone*"
+          "icon": "/img/Finales/BulletsPoint/Android/OnlyIcons/1.png",
+          "point": "*Cifrado* de cualquier *conexión* de tu *Android*"
         },
         {
-          "icon": "/img/Finales/BulletsPoint/IPhone/OnlyIcons/2.png",
-          "point": "Aprende a *crear* un *Apple ID anónimo*"
+          "icon": "/img/Finales/BulletsPoint/Android/OnlyIcons/2.png",
+          "point": "*Crea* una *cuenta* de *Google anónima*"
         },
         {
-          "icon": "/img/Finales/BulletsPoint/IPhone/OnlyIcons/3.png",
-          "point": "*Protección* contra *ataques avanzadaos*"
+          "icon": "/img/Finales/BulletsPoint/Android/OnlyIcons/3.png",
+          "point": "*Protección total* de tu móvil *Android*"
         },
         {
-          "icon": "/img/Finales/BulletsPoint/IPhone/OnlyIcons/4.png",
+          "icon": "/img/Finales/BulletsPoint/Android/OnlyIcons/4.png",
           "point": "*Configuración* de *máxima* seguridad y *privacidad*"
         },
         {
-          "icon": "/img/Finales/BulletsPoint/IPhone/OnlyIcons/5.png",
-          "point": "*Máxima protección* de tu cuenta de *iCloud*"
+          "icon": "/img/Finales/BulletsPoint/Android/OnlyIcons/5.png",
+          "point": "*Instalación* y configuración de *GrapheneOS*"
         },
         {
-          "icon": "/img/Finales/BulletsPoint/IPhone/OnlyIcons/6.png",
+          "icon": "/img/Finales/BulletsPoint/Android/OnlyIcons/6.png",
           "point": "*Elimina* toda la *telemetría espía*"
         }
       ],
