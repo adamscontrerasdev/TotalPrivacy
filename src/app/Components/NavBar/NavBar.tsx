@@ -1,13 +1,11 @@
 "use client";
 import React, { useEffect, useState, useRef } from "react";
 import Link from "next/link";
-import { FaMagnifyingGlass } from "react-icons/fa6";
 import styles from "./NavBar.module.css";
 import { CursoOfTheNavBar } from "./../../Elements/index";
 import { useIsMobile } from "@/app/Elements/hooks";
 import { GoHomeFill } from "react-icons/go";
 import { usePathname } from "next/navigation";
-import { useBrowserMode } from "@/app/Elements/hooks/globalHooks/BrowserModeContext";
 
 export const NavBar = () => {
   const [isHover, setIsHover] = useState(false);
@@ -19,12 +17,6 @@ export const NavBar = () => {
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const path = usePathname();
   const isNotDashboard: boolean = path !== "/Dashboard";
-  const { setBrowserMode } = useBrowserMode();
-  const [os, setOS] = useState<string | null>(null); // Estado para almacenar el OS
-
-  const handleBrowserMode = () => {
-    setBrowserMode(true);
-  };
 
   const handleMobileClick = (who: string) => {
     if (whoIsHover === who) {
@@ -88,19 +80,6 @@ export const NavBar = () => {
     };
   }, []);
 
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      const platform = navigator.userAgent.toLowerCase();
-      if (platform.includes("win")) {
-        setOS("Windows");
-      } else if (platform.includes("mac")) {
-        setOS("MacOS");
-      } else {
-        setOS("Otro");
-      }
-    }
-  }, []);
-
   return isNotDashboard ? (
     <div
       className={` bg-opacity-60 backdrop-blur-3xl backdrop-brightness-75 ${
@@ -126,7 +105,7 @@ export const NavBar = () => {
             <h1 className={`${styles.title} text-xs`}>TOTAL PRIVACY</h1>
           )}
         </Link>
-        <div
+        {/* <div
           className={`flex items-center gap-2 cursor-pointer ${!isMobile ? "border-[1px] border-gray-500" : ""} p-2 rounded-full`}
           onClick={handleBrowserMode}
         >
@@ -134,7 +113,7 @@ export const NavBar = () => {
           {!isMobile && (
             <p className="text-xs">{os === "Windows" ? "CTRL + B" : "⌘ + B"}</p>
           )}
-        </div>
+        </div> */}
       </div>
 
       <div className="flex items-center justify-around font-medium h-20 z-20 gap-5">
