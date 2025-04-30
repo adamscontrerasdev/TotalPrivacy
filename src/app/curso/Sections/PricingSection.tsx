@@ -1,7 +1,10 @@
-import { Pricing, Product } from "@/app/Elements";
+import { PayButton, Pricing, Product } from "@/app/Elements";
 import React from "react";
 import { ButtonVSL, ContainerSections, Title } from "../components";
 import { iconsMap } from "@/app/Elements/types/MapIcons";
+import { RiVisaLine, RiMastercardLine, RiPaypalFill } from "react-icons/ri";
+import { FaCcAmex, FaGooglePay } from "react-icons/fa6";
+import { IoLogoBitcoin } from "react-icons/io";
 
 interface Props {
   product?: Product;
@@ -65,7 +68,7 @@ const UniquePlanCard: React.FC<{ product: Product }> = ({ product }) => {
         <div className="flex items-center gap-5 opacity-50">
           {plan.payType.map((payType, i) => (
             <span key={i} style={{ color: primaryColor }}>
-              {payType}
+              {payType.type}
             </span>
           ))}
         </div>
@@ -77,12 +80,64 @@ const UniquePlanCard: React.FC<{ product: Product }> = ({ product }) => {
 const MultiplePlanCard: React.FC<{
   plan: Pricing;
   index: number;
-}> = ({ plan, index }) => {
+  payButtons?: PayButton[];
+}> = ({ plan, index, payButtons }) => {
   const primaryColor = "#0083ff";
   const isFeatured = index === 1;
   const icons = Array.isArray(plan.icon)
     ? plan.icon.map((key) => iconsMap[key.icon]).filter(Boolean)
     : [];
+
+  const iconPayTypeMap: { [key: string]: React.ReactNode } = {
+    visa: (
+      <RiVisaLine
+        style={{
+          fill: "#fff",
+          color: "#fff",
+        }}
+      />
+    ),
+    master: (
+      <RiMastercardLine
+        style={{
+          fill: "#fff",
+          color: "#fff",
+        }}
+      />
+    ),
+    amex: (
+      <FaCcAmex
+        style={{
+          fill: "#fff",
+          color: "#fff",
+        }}
+      />
+    ),
+    paypal: (
+      <RiPaypalFill
+        style={{
+          fill: "#fff",
+          color: "#fff",
+        }}
+      />
+    ),
+    gpay: (
+      <FaGooglePay
+        style={{
+          fill: "#fff",
+          color: "#fff",
+        }}
+      />
+    ),
+    btc: (
+      <IoLogoBitcoin
+        style={{
+          fill: "#fff",
+          color: "#fff",
+        }}
+      />
+    ),
+  };
 
   if (!plan || !plan.points || !plan.payType) return null;
 
@@ -146,24 +201,66 @@ const MultiplePlanCard: React.FC<{
           <ul className="flex flex-col gap-2 text-sm text-neutral-300">
             {plan.points.map((point, i) => (
               <li key={i} className="flex items-center gap-2 text-left">
-                <span style={{ color: primaryColor }}>✔</span> {point}
+                <span style={{ color: primaryColor }}>✔</span>
+                <span>
+                  {point.split(" ").map((word, j) => {
+                    let style = {};
+
+                    if (word.toLowerCase().includes("incluido")) {
+                      style = { color: "#facc15" }; // naranja para "Incluido"
+                    } else if (/\d/.test(word)) {
+                      style = { color: "#4ade80" }; // verde para números
+                    }
+
+                    return (
+                      <span key={j} style={style}>
+                        {word}{" "}
+                      </span>
+                    );
+                  })}
+                </span>
               </li>
             ))}
           </ul>
         </div>
 
         <div className="mt-6 flex flex-col items-center gap-4">
-          <p className="text-4xl font-bold text-white">
-            {plan.currency}
-            {plan.price}
-          </p>
+          <div className="">
+            {Array.isArray(plan.price) ? (
+              <p className="text-4xl font-bold text-white flex items-center">
+                <span className="line-through text-neutral-400 text-2xl animate-pulse">
+                  {plan.currency}
+                  {plan.price[0]}
+                </span>
+                <span className="mx-2 text-neutral-400 text-2xl">|</span>
+                {/* Precio con descuento */}
+                <span className="text-4xl font-bold text-white">
+                  {plan.currency}
+                  {plan.price[1]}
+                </span>{" "}
+              </p>
+            ) : (
+              <p className="text-4xl font-bold text-white">
+                {plan.currency}
+                {plan.price}
+              </p>
+            )}
+          </div>
 
-          <ButtonVSL value={plan.textButton} />
+          <ButtonVSL
+            value={plan.textButton}
+            variant="primary"
+            redirect={payButtons?.[0].link}
+          />
 
-          <div className="flex items-center gap-3 text-sm opacity-60 flex-wrap justify-center">
-            {plan.payType.map((p, i) => (
-              <span key={i} style={{ color: primaryColor }}>
-                {p}
+          <div className="flex items-center gap-3 text-sm opacity-60 flex-wrap justify-center ">
+            {plan.payType?.map(({ icon }, index) => (
+              <span
+                key={index}
+                className="flex items-center justify-center gap-1 text-lg"
+                style={{ color: primaryColor, fill: primaryColor }}
+              >
+                {icon && iconPayTypeMap[icon]}
               </span>
             ))}
           </div>
@@ -182,14 +279,14 @@ export const PricingSection: React.FC<Props> = ({ product }) => {
 
   return (
     <ContainerSections>
-      <div className="w-full max-w-7xl flex flex-col gap-32 rounded-2xl justify-center items-center">
+      <div className="w-full max-w-7xl flex flex-col gap-40 rounded-2xl justify-center items-center">
         <Title
           text={
             product
               ? hasMultiplePlans
-                ? "Planes de acceso"
+                ? "Niveles de Protección"
                 : "Plan de acceso"
-              : "Planes de acceso"
+              : "Niveles de Protección"
           }
         />
 
@@ -197,7 +294,12 @@ export const PricingSection: React.FC<Props> = ({ product }) => {
           {product &&
             (hasMultiplePlans ? (
               product.pricing.map((plan, i) => (
-                <MultiplePlanCard key={i} plan={plan} index={i} />
+                <MultiplePlanCard
+                  key={i}
+                  plan={plan}
+                  index={i}
+                  payButtons={product.payButtons}
+                />
               ))
             ) : (
               <UniquePlanCard product={product} />

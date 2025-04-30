@@ -35,13 +35,13 @@ export interface PersonalNote {
 
 export interface Pricing {
   title?: string;
-  price?: number;
+  price?: number | number[];
   currency?: string;
   description?: string;
   points?: string[];
   textButton?: string;
   redirectTo?: string;
-  payType?: string[];
+  payType?: { type: string; icon?: string }[];
   icon?: { icon: string; color?: string }[];
 }
 
@@ -63,6 +63,13 @@ export interface FinalCTA {
   startRate?: string;
 }
 
+export interface PayButton {
+  type: string;
+  text: string;
+  link: string;
+  var: "primary" | "secondary";
+}
+
 export interface Product {
   id?: number;
   icon?: string;
@@ -76,7 +83,7 @@ export interface Product {
   before?: boolean;
   order?: number;
   Destacado?: boolean;
-  cardPay?: string;
+  payButtons?: PayButton[];
   proximamente?: boolean;
   testimonios?: Testimonio[];
   points?: Points[];

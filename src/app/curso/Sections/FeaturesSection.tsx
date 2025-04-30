@@ -24,7 +24,9 @@ const FeaturesCard: React.FC<{ feature: Features }> = ({ feature }) => {
         <p className="text-xs md:text-base text-neutral-300 text-left max-w-xl">
           {content}
         </p>
-        <ButtonVSL value={button || "Ver más"} />
+        {button && button !== "" && (
+          <ButtonVSL value={button} sm={false} variant="primary" openModal />
+        )}
       </div>
       <div
         className={`w-full md:w-1/2 aspect-video rounded-2xl ${feature.img ? "overflow-hidden" : "bg-neutral-800 animate-pulse"}`}

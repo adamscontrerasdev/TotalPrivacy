@@ -31,7 +31,11 @@ export const HeroSection: React.FC<Props> = ({ product, socialText }) => {
         <Subtitle text={product.description}></Subtitle>
       </div>
       <div className="w-full max-w-80 sm:max-w-2xl flex flex-col items-center gap-3 text-white">
-        <ButtonVSL value="Adquirir" />
+        <ButtonVSL
+          value={"Obtener"}
+          variant="primary"
+          redirect={product.payButtons?.[0].link}
+        />
         {socialText && socialText !== "" && (
           <div className="">
             <div className="md:hidden">

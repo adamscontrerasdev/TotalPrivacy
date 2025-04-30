@@ -15,8 +15,21 @@
       "poster": "https://vz-0b00e04e-39c.b-cdn.net/71afb805-0b47-43df-89c2-727a2bb30e3e/thumbnail_bfc540c6.jpg",
       "order": 1,
       "Destacado": false,
-      "cardPay": "",
       "proximamente": false,
+      "payButtons": [
+        {
+          "type": "tarjeta",
+          "text": "Obtener con Tarjeta",
+          "link": "https://pay.hotmart.com/I97433852A",
+          "var": "primary"
+        },
+        {
+          "type": "Bitcoin",
+          "text": "Obtener con Bitcoin",
+          "link": "https://pay.hotmart.com/I97433852A",
+          "var": "secondary"
+        }
+      ],
       "testimonios": [
         {
           "name": "",
@@ -70,7 +83,7 @@
           "title": "Formación paso a paso, sin complicaciones",
           "content": "No necesitas conocimiento técnico. Solo seguir los vídeos paso a paso del curso donde te enseño a limpiar tu iPhone de telemetría espía, configurar perfiles para cifrado DNS y proteger cualquier conexión de tu teléfono móvil.",
           "order": 0,
-          "button": "",
+          "button": "Obtener acceso",
           "img": "/img/Finales/Modulos/iPhone/Formación paso a paso.png"
         },
         {
@@ -100,16 +113,36 @@
           "currency": "€",
           "description": "Incluye:",
           "points": [
-            "Curso Bunkeriza tu iPhone",
-            "eBook de Privacidad iPhone"
+            "Curso Bunkeriza tu iPhone - €127",
+            "eBook de Privacidad iPhone - Incluido"
           ],
           "textButton": "Obtener",
           "redirectTo": "",
           "payType": [
-            "visa",
-            "amex",
-            "mastercard",
-            "bitcoin"
+            {
+              "type": "Visa",
+              "icon": "visa"
+            },
+            {
+              "type": "Mastercard",
+              "icon": "master"
+            },
+            {
+              "type": "Amex",
+              "icon": "amex"
+            },
+            {
+              "type": "PayPal",
+              "icon": "paypal"
+            },
+            {
+              "type": "Google pay",
+              "icon": "gpay"
+            },
+            {
+              "type": "Bitcoin",
+              "icon": "btc"
+            }
           ],
           "icon": [
             {
@@ -120,21 +153,44 @@
         },
         {
           "title": "Pack Privacidad Total Apple",
-          "price": 230,
+          "price": [
+            284,
+            230
+          ],
           "currency": "€",
           "description": "Incluye:",
           "points": [
-            "Curso Bunkeriza tu iPhone",
-            "eBook Privacidad iPhone",
-            "Curso Blinda tu Mac "
+            "Curso Bunkeriza tu iPhone - €127",
+            "Curso Blinda tu Mac - €157",
+            "eBook Privacidad iPhone - Incluido"
           ],
           "textButton": "Obtener",
           "redirectTo": "",
           "payType": [
-            "visa",
-            "amex",
-            "mastercard",
-            "bitcoin"
+            {
+              "type": "Visa",
+              "icon": "visa"
+            },
+            {
+              "type": "Mastercard",
+              "icon": "master"
+            },
+            {
+              "type": "Amex",
+              "icon": "amex"
+            },
+            {
+              "type": "PayPal",
+              "icon": "paypal"
+            },
+            {
+              "type": "Google pay",
+              "icon": "gpay"
+            },
+            {
+              "type": "Bitcoin",
+              "icon": "btc"
+            }
           ],
           "icon": [
             {
@@ -266,15 +322,35 @@
           "currency": "€",
           "description": "Incluye:",
           "points": [
-            "Curso Blinda tu Mac"
+            "Curso Blinda tu Mac - €157"
           ],
           "textButton": "Obtener",
           "redirectTo": "",
           "payType": [
-            "visa",
-            "amex",
-            "mastercard",
-            "bitcoin"
+            {
+              "type": "Visa",
+              "icon": "visa"
+            },
+            {
+              "type": "Mastercard",
+              "icon": "master"
+            },
+            {
+              "type": "Amex",
+              "icon": "amex"
+            },
+            {
+              "type": "PayPal",
+              "icon": "paypal"
+            },
+            {
+              "type": "Google pay",
+              "icon": "gpay"
+            },
+            {
+              "type": "Bitcoin",
+              "icon": "btc"
+            }
           ],
           "icon": [
             {
@@ -285,22 +361,45 @@
         },
         {
           "title": "Pack Privacidad Total Apple",
-          "price": 230,
+          "price": [
+            284,
+            230
+          ],
           "currency": "€",
-          "description": "Acceso a los cursos completos de Privacidad Apple que serían Privacidad MacOS y Privacidad iOS",
+          "description": "Incluye: ",
           "points": [
-            "Curso Blinda tu Mac",
-            "Curso Bunkeriza tu iPhone",
-            "Incluye Creación de Apple ID Anónimo",
-            "eBook de Privacidad iPhone"
+            "Curso Blinda tu Mac - €157",
+            "Curso Bunkeriza tu iPhone - €127",
+            "Creación de Apple ID Anónimo - Incluido",
+            "eBook de Privacidad iPhone - Incluido"
           ],
           "textButton": "Obtener",
           "redirectTo": "",
           "payType": [
-            "visa",
-            "amex",
-            "mastercard",
-            "bitcoin"
+            {
+              "type": "Visa",
+              "icon": "visa"
+            },
+            {
+              "type": "Mastercard",
+              "icon": "master"
+            },
+            {
+              "type": "Amex",
+              "icon": "amex"
+            },
+            {
+              "type": "PayPal",
+              "icon": "paypal"
+            },
+            {
+              "type": "Google pay",
+              "icon": "gpay"
+            },
+            {
+              "type": "Bitcoin",
+              "icon": "btc"
+            }
           ],
           "icon": [
             {
@@ -439,15 +538,35 @@
           "currency": "€",
           "description": "Incluye:",
           "points": [
-            "Curso Blinda tu Windows"
+            "Curso Blinda tu Windows - €157"
           ],
           "textButton": "Obtener",
           "redirectTo": "",
           "payType": [
-            "visa",
-            "amex",
-            "mastercard",
-            "bitcoin"
+            {
+              "type": "Visa",
+              "icon": "visa"
+            },
+            {
+              "type": "Mastercard",
+              "icon": "master"
+            },
+            {
+              "type": "Amex",
+              "icon": "amex"
+            },
+            {
+              "type": "PayPal",
+              "icon": "paypal"
+            },
+            {
+              "type": "Google pay",
+              "icon": "gpay"
+            },
+            {
+              "type": "Bitcoin",
+              "icon": "btc"
+            }
           ],
           "icon": [
             {
@@ -458,22 +577,45 @@
         },
         {
           "title": "Plan Privacidad Total",
-          "price": 230,
+          "price": [
+            284,
+            230
+          ],
           "currency": "€",
           "description": "Incluye:",
           "points": [
-            "Blinda tu Windows",
-            "Curso Bunkeriza tu Android",
-            "Incluye instalación de GrapheneOS",
-            "eBook de Privacidad Android"
+            "Curso Blinda tu Windows - €157",
+            "Curso Bunkeriza tu Android - €127",
+            "Instalación de GrapheneOS - Incluido",
+            "eBook de Privacidad Android - Incluido"
           ],
           "textButton": "Obtener",
           "redirectTo": "",
           "payType": [
-            "visa",
-            "amex",
-            "mastercard",
-            "bitcoin"
+            {
+              "type": "Visa",
+              "icon": "visa"
+            },
+            {
+              "type": "Mastercard",
+              "icon": "master"
+            },
+            {
+              "type": "Amex",
+              "icon": "amex"
+            },
+            {
+              "type": "PayPal",
+              "icon": "paypal"
+            },
+            {
+              "type": "Google pay",
+              "icon": "gpay"
+            },
+            {
+              "type": "Bitcoin",
+              "icon": "btc"
+            }
           ],
           "icon": [
             {
@@ -534,7 +676,6 @@
       "order": 0,
       "poster": "https://vz-0b00e04e-39c.b-cdn.net/6ab241a3-e9d6-46d5-971d-39f528afdbc7/thumbnail_64a8bbaa.jpg",
       "Destacado": false,
-      "cardPay": "",
       "proximamente": false,
       "testimonios": [
         {
@@ -619,16 +760,36 @@
           "currency": "€",
           "description": "Incluye:",
           "points": [
-            "Curso Bunkeriza tu Android",
-            "eBook de Privacidad Android"
+            "Curso Bunkeriza tu Android - €127",
+            "eBook de Privacidad Android - Incluido"
           ],
           "textButton": "Obtener",
           "redirectTo": "",
           "payType": [
-            "visa",
-            "amex",
-            "mastercard",
-            "bitcoin"
+            {
+              "type": "Visa",
+              "icon": "visa"
+            },
+            {
+              "type": "Mastercard",
+              "icon": "master"
+            },
+            {
+              "type": "Amex",
+              "icon": "amex"
+            },
+            {
+              "type": "PayPal",
+              "icon": "paypal"
+            },
+            {
+              "type": "Google pay",
+              "icon": "gpay"
+            },
+            {
+              "type": "Bitcoin",
+              "icon": "btc"
+            }
           ],
           "icon": [
             {
@@ -639,21 +800,44 @@
         },
         {
           "title": "Pack Privacidad Total",
-          "price": 230,
+          "price": [
+            284,
+            230
+          ],
           "currency": "€",
           "description": "Incluye:",
           "points": [
-            "Curso Bunkeriza tu Android",
-            "eBook de Privacidad Android",
-            "Curso Blinda tu Windows"
+            "Curso Bunkeriza tu Android - €127",
+            "Curso Blinda tu Windows - €157",
+            "eBook de Privacidad Android - Incluido"
           ],
           "textButton": "Obtener",
           "redirectTo": "",
           "payType": [
-            "visa",
-            "amex",
-            "mastercard",
-            "bitcoin"
+            {
+              "type": "Visa",
+              "icon": "visa"
+            },
+            {
+              "type": "Mastercard",
+              "icon": "master"
+            },
+            {
+              "type": "Amex",
+              "icon": "amex"
+            },
+            {
+              "type": "PayPal",
+              "icon": "paypal"
+            },
+            {
+              "type": "Google pay",
+              "icon": "gpay"
+            },
+            {
+              "type": "Bitcoin",
+              "icon": "btc"
+            }
           ],
           "icon": [
             {
