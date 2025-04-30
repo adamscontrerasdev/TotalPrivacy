@@ -4,8 +4,10 @@ import ProductClient from "./ProductClient";
 import { Product } from "@/app/Elements";
 import React from "react";
 
-const cursos = data.cursos ?? [];
-const validTypes = cursos.map((item) => item.key.trim());
+const cursos: Product[] = data.cursos ?? [];
+const validTypes = cursos
+  .map((item) => item.key?.trim())
+  .filter((key): key is string => key !== undefined);
 
 export async function generateStaticParams() {
   return validTypes.map((type) => ({ type }));
