@@ -155,7 +155,7 @@
           "title": "Pack Privacidad Total Apple",
           "price": [
             284,
-            230
+            227
           ],
           "currency": "€",
           "description": "Incluye:",
@@ -251,8 +251,21 @@
       "poster": "https://vz-0b00e04e-39c.b-cdn.net/69ea4df1-6ae6-44a1-be80-8ebb410286a3/thumbnail_9c1a939b.jpg",
       "order": 0,
       "Destacado": false,
-      "cardPay": "https://pay.hotmart.com/I97433852A",
       "proximamente": false,
+      "payButtons": [
+        {
+          "type": "tarjeta",
+          "text": "Obtener con Tarjeta",
+          "link": "https://pay.hotmart.com/I97433852A?checkoutMode=10&bid=1746028250733",
+          "var": "primary"
+        },
+        {
+          "type": "Bitcoin",
+          "text": "Obtener con Bitcoin",
+          "link": "",
+          "var": "secondary"
+        }
+      ],
       "testimonios": [
         {
           "name": "",
@@ -325,7 +338,7 @@
             "Curso Blinda tu Mac - €157"
           ],
           "textButton": "Obtener",
-          "redirectTo": "",
+          "redirectTo": "https://pay.hotmart.com/I97433852A?checkoutMode=10&bid=1746028250733",
           "payType": [
             {
               "type": "Visa",
@@ -363,7 +376,7 @@
           "title": "Pack Privacidad Total Apple",
           "price": [
             284,
-            230
+            227
           ],
           "currency": "€",
           "description": "Incluye: ",
@@ -374,7 +387,7 @@
             "eBook de Privacidad iPhone - Incluido"
           ],
           "textButton": "Obtener",
-          "redirectTo": "",
+          "redirectTo": "https://pay.hotmart.com/Y99485541C?checkoutMode=10&bid=1746025481714",
           "payType": [
             {
               "type": "Visa",
@@ -462,6 +475,20 @@
       "Destacado": true,
       "cardPay": "https://pay.hotmart.com/Y97437543N",
       "proximamente": false,
+      "payButtons": [
+        {
+          "type": "tarjeta",
+          "text": "Obtener con Tarjeta",
+          "link": "https://pay.hotmart.com/Y97437543N?checkoutMode=10&bid=1746028195196",
+          "var": "primary"
+        },
+        {
+          "type": "Bitcoin",
+          "text": "Obtener con Bitcoin",
+          "link": "",
+          "var": "secondary"
+        }
+      ],
       "testimonios": [
         {
           "name": "",
@@ -541,7 +568,7 @@
             "Curso Blinda tu Windows - €157"
           ],
           "textButton": "Obtener",
-          "redirectTo": "",
+          "redirectTo": "https://pay.hotmart.com/Y97437543N?checkoutMode=10&bid=1746028195196",
           "payType": [
             {
               "type": "Visa",
@@ -576,10 +603,10 @@
           ]
         },
         {
-          "title": "Plan Privacidad Total",
+          "title": "Plan Privacidad 360",
           "price": [
             284,
-            230
+            227
           ],
           "currency": "€",
           "description": "Incluye:",
@@ -590,7 +617,7 @@
             "eBook de Privacidad Android - Incluido"
           ],
           "textButton": "Obtener",
-          "redirectTo": "",
+          "redirectTo": "https://pay.hotmart.com/F99485435Y?checkoutMode=10&bid=1746028073187",
           "payType": [
             {
               "type": "Visa",
@@ -677,6 +704,20 @@
       "poster": "https://vz-0b00e04e-39c.b-cdn.net/6ab241a3-e9d6-46d5-971d-39f528afdbc7/thumbnail_64a8bbaa.jpg",
       "Destacado": false,
       "proximamente": false,
+      "payButtons": [
+        {
+          "type": "tarjeta",
+          "text": "Obtener con Tarjeta",
+          "link": "https://pay.hotmart.com/X99332972Q?checkoutMode=10&bid=1746027999482",
+          "var": "primary"
+        },
+        {
+          "type": "Bitcoin",
+          "text": "Obtener con Bitcoin",
+          "link": "",
+          "var": "secondary"
+        }
+      ],
       "testimonios": [
         {
           "name": "",
@@ -764,7 +805,7 @@
             "eBook de Privacidad Android - Incluido"
           ],
           "textButton": "Obtener",
-          "redirectTo": "",
+          "redirectTo": "https://pay.hotmart.com/X99332972Q?checkoutMode=10&bid=1746027999482",
           "payType": [
             {
               "type": "Visa",
@@ -799,10 +840,10 @@
           ]
         },
         {
-          "title": "Pack Privacidad Total",
+          "title": "Pack Privacidad 360",
           "price": [
             284,
-            230
+            227
           ],
           "currency": "€",
           "description": "Incluye:",
@@ -812,7 +853,7 @@
             "eBook de Privacidad Android - Incluido"
           ],
           "textButton": "Obtener",
-          "redirectTo": "",
+          "redirectTo": "https://pay.hotmart.com/F99485435Y?checkoutMode=10&bid=1746028073187",
           "payType": [
             {
               "type": "Visa",

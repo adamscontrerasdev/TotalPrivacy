@@ -22,7 +22,7 @@ export const FinalCTASection: React.FC<Props> = ({ product }) => {
           <div className="flex gap-5 w-full max-w-2xl justify-center items-center">
             <ButtonVSL
               value={product?.payButtons[0].text}
-              redirect={product?.payButtons[1].link}
+              redirect={product?.payButtons[0].link}
             />
             <ButtonVSL
               value={product?.payButtons[1].text}
