@@ -138,10 +138,6 @@
             {
               "type": "Google pay",
               "icon": "gpay"
-            },
-            {
-              "type": "Bitcoin",
-              "icon": "btc"
             }
           ],
           "icon": [
@@ -153,10 +149,7 @@
         },
         {
           "title": "Pack Privacidad Total Apple",
-          "price": [
-            284,
-            227
-          ],
+          "price": [284, 227],
           "currency": "€",
           "description": "Incluye:",
           "points": [
@@ -186,10 +179,6 @@
             {
               "type": "Google pay",
               "icon": "gpay"
-            },
-            {
-              "type": "Bitcoin",
-              "icon": "btc"
             }
           ],
           "icon": [
@@ -312,14 +301,14 @@
           "title": "Privacidad Total para tu Mac",
           "content": "La gran ventaja de Mac es su potencial oculto, pero la mayoría lo desconoce. Desde cifrado DNS hasta máquinas virtuales, tendrás tu Mac protegido como un profesional en privacidad digital, sin necesidad de conocimiento previo.",
           "order": 1,
-          "button": "Obtener",
+          "button": "",
           "img": "/img/Finales/Modulos/Mac/Privacidad Total para tu Mac.png"
         },
         {
           "title": "Formación paso a paso, sin complicaciones",
           "content": "En Blinda tu Mac la dificulta técnica es nula, nos hemos asegurado de ello, para que aprendas a cifrar archivos, proteger tu información contra ataques de fuerza bruta u otras amenazas así como un largo etcétera. Accederás a videos y lecciones guiadas, configuraciones especializadas, y mucho más…",
           "order": 0,
-          "button": "",
+          "button": "Obtener acceso",
           "img": "/img/Finales/Modulos/Mac/Formación paso a paso.png"
         }
       ],
@@ -334,9 +323,7 @@
           "price": 157,
           "currency": "€",
           "description": "Incluye:",
-          "points": [
-            "Curso Blinda tu Mac - €157"
-          ],
+          "points": ["Curso Blinda tu Mac - €157"],
           "textButton": "Obtener",
           "redirectTo": "https://pay.hotmart.com/I97433852A?checkoutMode=10&bid=1746028250733",
           "payType": [
@@ -359,10 +346,6 @@
             {
               "type": "Google pay",
               "icon": "gpay"
-            },
-            {
-              "type": "Bitcoin",
-              "icon": "btc"
             }
           ],
           "icon": [
@@ -374,10 +357,7 @@
         },
         {
           "title": "Pack Privacidad Total Apple",
-          "price": [
-            284,
-            227
-          ],
+          "price": [284, 227],
           "currency": "€",
           "description": "Incluye: ",
           "points": [
@@ -408,10 +388,6 @@
             {
               "type": "Google pay",
               "icon": "gpay"
-            },
-            {
-              "type": "Bitcoin",
-              "icon": "btc"
             }
           ],
           "icon": [
@@ -535,14 +511,14 @@
           "title": "Privacidad Total en Windows",
           "content": "Windows es el sistema operativo más espía y menos seguro del mundo. Aunque existen configuraciones y programas que no solo limpian tu PC de software espía, sino que lo protegen contra toda amenaza y aumentan su rendimiento al eliminar procesos que espían tu actividad en segundo plano…",
           "order": 1,
-          "button": "Obtener",
+          "button": "",
           "img": "/img/Finales/Modulos/Windows/Privacidad Total para tu Windows.png"
         },
         {
           "title": "Formación paso a paso, sin complicaciones",
           "content": "No necesitas conocimiento técnico. Solo seguir los vídeos paso a paso del curso donde te enseño a limpiar de amenazas a la privacidad tu ordenador, todo ello de forma rápida, sin necesidad de saber nada de informática. Cifrarás toda conexión de tu PC y lo protegerás contra cualquier ataque mediante potentes cortafuegos y técnicas de cifrado que nadie conoce",
           "order": 0,
-          "button": "",
+          "button": "Obtener acceso",
           "img": "/img/Finales/Modulos/Windows/Formación paso a paso.png"
         },
         {
@@ -564,9 +540,7 @@
           "price": 157,
           "currency": "€",
           "description": "Incluye:",
-          "points": [
-            "Curso Blinda tu Windows - €157"
-          ],
+          "points": ["Curso Blinda tu Windows - €157"],
           "textButton": "Obtener",
           "redirectTo": "https://pay.hotmart.com/Y97437543N?checkoutMode=10&bid=1746028195196",
           "payType": [
@@ -589,10 +563,6 @@
             {
               "type": "Google pay",
               "icon": "gpay"
-            },
-            {
-              "type": "Bitcoin",
-              "icon": "btc"
             }
           ],
           "icon": [
@@ -604,10 +574,7 @@
         },
         {
           "title": "Plan Privacidad 360",
-          "price": [
-            284,
-            227
-          ],
+          "price": [284, 227],
           "currency": "€",
           "description": "Incluye:",
           "points": [
@@ -638,10 +605,6 @@
             {
               "type": "Google pay",
               "icon": "gpay"
-            },
-            {
-              "type": "Bitcoin",
-              "icon": "btc"
             }
           ],
           "icon": [
@@ -764,14 +727,14 @@
           "title": "Máxima privacidad en Android",
           "content": "Google es la empresa más espía del mundo, y tu Android le pertenece si no lo configuras adecuadamente. ¿Te sorprende que tu móvil te escuche? Pues espera a ver porque cuando hagas el curso. La ventaja que tienes es que Android permite gran configurabilidad, y lo puedes transformar en un auténtico Búnker..",
           "order": 1,
-          "button": "Obtener",
+          "button": "",
           "img": "/img/Finales/Modulos/Android/Máxima privacidad en Android.png"
         },
         {
           "title": "Formación paso a paso, sin complicaciones",
           "content": "No necesitas conocimiento técnico. Solo seguir los vídeos paso a paso del curso donde te enseño a limpiar tu Android de telemetría espía, configurar perfiles para cifrado DNS y proteger cualquier conexión de tu teléfono móvil a todos los niveles, incluyen enrolamiento proxy a TOR e i2P.",
           "order": 0,
-          "button": "",
+          "button": "Obtener acceso",
           "img": "/img/Finales/Modulos/Android/Formación paso a paso.png"
         },
         {
@@ -826,10 +789,6 @@
             {
               "type": "Google pay",
               "icon": "gpay"
-            },
-            {
-              "type": "Bitcoin",
-              "icon": "btc"
             }
           ],
           "icon": [
@@ -841,10 +800,7 @@
         },
         {
           "title": "Pack Privacidad 360",
-          "price": [
-            284,
-            227
-          ],
+          "price": [284, 227],
           "currency": "€",
           "description": "Incluye:",
           "points": [
@@ -874,10 +830,6 @@
             {
               "type": "Google pay",
               "icon": "gpay"
-            },
-            {
-              "type": "Bitcoin",
-              "icon": "btc"
             }
           ],
           "icon": [

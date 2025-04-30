@@ -1,4 +1,4 @@
-import { PayButton, Pricing, Product } from "@/app/Elements";
+import { Pricing, Product } from "@/app/Elements";
 import React from "react";
 import { ButtonVSL, ContainerSections, Title } from "../components";
 import { iconsMap } from "@/app/Elements/types/MapIcons";
@@ -80,8 +80,7 @@ const UniquePlanCard: React.FC<{ product: Product }> = ({ product }) => {
 const MultiplePlanCard: React.FC<{
   plan: Pricing;
   index: number;
-  payButtons?: PayButton[];
-}> = ({ plan, index, payButtons }) => {
+}> = ({ plan, index }) => {
   const primaryColor = "#0083ff";
   const isFeatured = index === 1;
   const icons = Array.isArray(plan.icon)
@@ -174,6 +173,7 @@ const MultiplePlanCard: React.FC<{
                 className="text-8xl md:text-9xl"
                 style={{
                   fill: `url(#gradient-fill-${index}-${i})`,
+                  stroke: `url(#gradient-fill-${index}-${i})`,
                 }}
               />
             </div>
@@ -225,7 +225,7 @@ const MultiplePlanCard: React.FC<{
         </div>
 
         <div className="mt-6 flex flex-col items-center gap-4">
-          <div className="">
+          <div className="flex items-center gap-2 justify-center flex-col">
             {Array.isArray(plan.price) ? (
               <p className="text-4xl font-bold text-white flex items-center">
                 <span className="line-through text-neutral-400 text-2xl animate-pulse">
@@ -245,6 +245,7 @@ const MultiplePlanCard: React.FC<{
                 {plan.price}
               </p>
             )}
+            {isFeatured && <p>+ IVA aplicable según tu país</p>}
           </div>
 
           <ButtonVSL
@@ -294,12 +295,7 @@ export const PricingSection: React.FC<Props> = ({ product }) => {
           {product &&
             (hasMultiplePlans ? (
               product.pricing.map((plan, i) => (
-                <MultiplePlanCard
-                  key={i}
-                  plan={plan}
-                  index={i}
-                  payButtons={product.payButtons}
-                />
+                <MultiplePlanCard key={i} plan={plan} index={i} />
               ))
             ) : (
               <UniquePlanCard product={product} />

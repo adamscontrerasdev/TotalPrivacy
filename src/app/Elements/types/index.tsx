@@ -67,7 +67,7 @@ export interface PayButton {
   type: string;
   text: string;
   link: string;
-  var: "primary" | "secondary";
+  var: string;
 }
 
 export interface Product {
@@ -76,7 +76,8 @@ export interface Product {
   key?: string;
   title?: string;
   price?: number;
-  bgColor: string;
+  cardPay?: string;
+  bgColor?: string;
   currency?: string;
   Bg?: string;
   description?: string;

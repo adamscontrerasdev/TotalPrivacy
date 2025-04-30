@@ -34,10 +34,7 @@ const FeaturesCard: React.FC<FeaturesCardProps> = ({ feature, payButtons }) => {
             value={button}
             sm={false}
             variant="primary"
-            openModal={{
-              tarjeta: payButtons?.[0]?.link ?? "",
-              bitcoin: payButtons?.[1]?.link ?? "",
-            }}
+            redirect={payButtons && payButtons[0].link}
           />
         )}
       </div>

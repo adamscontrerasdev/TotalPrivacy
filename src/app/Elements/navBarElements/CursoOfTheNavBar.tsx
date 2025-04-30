@@ -7,7 +7,7 @@ import {
   SiBitcoinsv,
   SiGrapheneos,
 } from "react-icons/si";
-import { MdOutlineDesktopMac } from "react-icons/md";
+import { MdOutlineDesktopMac } from "../icons/Mac";
 
 import styles from "./ElementsNavBar.module.css";
 import { GeneralCardOfNavbar } from "./../../Elements/index";

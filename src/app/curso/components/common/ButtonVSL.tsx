@@ -28,7 +28,7 @@ export const ButtonVSL: React.FC<Props> = ({
           setIsOpen(false);
         }
       },
-      { threshold: 0.1 }
+      { threshold: 0.1 },
     );
 
     observer.observe(buttonRef.current);
