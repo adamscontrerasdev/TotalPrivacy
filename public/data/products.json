@@ -1,194 +1,882 @@
 {
-  "ebooks": [
-    {
-      "id": 1,
-      "key": "iphone",
-      "title": "Bunkeriza tu iPhone",
-      "price": 37,
-      "currency": "€",
-      "Bg": "/img/Finales/Ebooks/IphoneNOBG.png",
-      "description": "Descubre cómo proteger tu iPhone de manera efectiva y garantizar tu privacidad en cada aspecto de su uso.",
-      "before": false,
-      "order": 0,
-      "Destacado": false,
-      "cardPay": "https://pay.hotmart.com/I97404423L",
-      "proximamente": false,
-      "points": [
-        "Desactivación de Telemetría Espía",
-        "Ajustes de Seguridad Total",
-        "Protección avanzada de cuenta",
-        "Explicaciones paso a paso"
-      ]
-    },
-    {
-      "id": 2,
-      "key": "android",
-      "title": "Bunkeriza tu Android",
-      "price": 37,
-      "currency": "€",
-      "Bg": "/img/Finales/Ebooks/AndroidNOBG.png",
-      "description": "Guía definitiva de privacidad guiada en Android. Explicaciones paso a paso de la privacidad en Android con proxy-stores, desactivación de telemetría y mucho más..",
-      "before": false,
-      "order": 1,
-      "Destacado": false,
-      "cardPay": "https://pay.hotmart.com/T97405455U",
-      "proximamente": false,
-      "points": [
-        "Apps y configuraciones únicas",
-        "Eliminación de programas espía"
-      ]
-    },
-    {
-      "id": 3,
-      "key": "OffShore",
-      "title": "Protección Off-Shore",
-      "price": 97,
-      "currency": "€",
-      "Bg": "/img/Finales/Ebooks/OffShore.png",
-      "description": "Descubre los secretos del mundo financiero offshore con esta guía completa. Aprende cómo proteger tus activos.",
-      "before": false,
-      "order": 0,
-      "Destacado": false,
-      "cardPay": "https://pay.hotmart.com/N97423369D",
-      "proximamente": false,
-      "points": [
-        "Puertos Francos",
-        "Secretos de Banca Internacional",
-        "Trucos de protección patrimonial",
-        "Bitcoin, pasaportes y mucho más..."
-      ]
-    }
-  ],
-  "ebooks_release_date": "2024-11-20",
   "cursos": [
     {
-      "id": 8,
-      "key": "grapheneos",
-      "title": "Curso GrapheneOS",
-      "price": 97,
-      "currency": "€",
-      "note": "*",
-      "Bg": "https://wonderfall.space/content/images/2021/05/photo-1568607689150-17e625c1586e.jpg",
-      "description": "Instala y configura como un PRO el sistema móvil más privado del mundo",
-      "before": false,
-      "order": 0,
-      "Destacado": false,
-      "cardPay": "https://pay.hotmart.com/P97455526B",
-      "proximamente": false,
-      "points": [
-        "Videos paso a paso",
-        "Recursos y configuraciones únicas",
-        "Compartimentación y perfilado de privacidad total",
-        "SE NECESITA DE MÓVIL GOOGLE PIXEL"
-      ]
-    },
-    {
       "id": 6,
-      "key": "Blinda-iphone",
-      "title": "Blinda tu iPhone",
-      "price": 97,
+      "icon": "SiApple",
+      "key": "iPhone",
+      "title": "Bunkeriza tu iPhone",
+      "price": 127,
+      "bgColor": "#F9DBBFa0",
       "currency": "€",
-      "Bg": "https://f.fcdn.app/imgs/77cd5e/www.mundomac.com/mmacuy/1225/original/wysiwyg/1/1280x0/iphone-16-pro.png",
-      "description": "Aprende a configurar tu iPhone como nunca antes lo has experimentado. Máxima privacidad, máxima seguridad.",
+      "Bg": "https://vz-0b00e04e-39c.b-cdn.net/71afb805-0b47-43df-89c2-727a2bb30e3e/thumbnail_bfc540c6.jpg",
+      "description": "Protege tu iPhone mejor que un espía, con máxima privacidad. Sin necesidad de conocimientos previos",
       "before": false,
-      "video": "/Videos/Finales/Cursos/Prueba.mp4",
-      "poster": "https://www.apple.com/newsroom/images/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/article/Apple-iPhone-15-Pro-lineup-hero-230912_Full-Bleed-Image.jpg.large.jpg",
+      "video": "71afb805-0b47-43df-89c2-727a2bb30e3e",
+      "poster": "https://vz-0b00e04e-39c.b-cdn.net/71afb805-0b47-43df-89c2-727a2bb30e3e/thumbnail_bfc540c6.jpg",
       "order": 1,
       "Destacado": false,
-      "cardPay": "",
-      "proximamente": true,
+      "proximamente": false,
+      "payButtons": [
+        {
+          "type": "tarjeta",
+          "text": "Obtener con Tarjeta",
+          "link": "https://pay.hotmart.com/M98315225T?checkoutMode=10&bid=1746025383335",
+          "var": "primary"
+        },
+        {
+          "type": "Bitcoin",
+          "text": "Obtener con Bitcoin",
+          "link": "https://pay.hotmart.com/I97433852A",
+          "var": "secondary"
+        }
+      ],
+      "testimonios": [
+        {
+          "name": "",
+          "testimonio": ""
+        }
+      ],
       "points": [
-        "Explicaciones paso a paso",
-        "Cifrado de datos, DNS y más...",
-        "Recursos de privacidad únicos para iOS",
-        "Videos paso a paso"
-      ]
+        {
+          "icon": "/img/Finales/BulletsPoint/IPhone/OnlyIcons/1.png",
+          "point": "*Cifrado* de cualquier *conexión* del *iPhone*"
+        },
+        {
+          "icon": "/img/Finales/BulletsPoint/IPhone/OnlyIcons/2.png",
+          "point": "Aprende a *crear* un *Apple ID anónimo*"
+        },
+        {
+          "icon": "/img/Finales/BulletsPoint/IPhone/OnlyIcons/3.png",
+          "point": "*Protección* contra *ataques avanzadaos*"
+        },
+        {
+          "icon": "/img/Finales/BulletsPoint/IPhone/OnlyIcons/4.png",
+          "point": "*Configuración* de *máxima* seguridad y *privacidad*"
+        },
+        {
+          "icon": "/img/Finales/BulletsPoint/IPhone/OnlyIcons/5.png",
+          "point": "*Máxima protección* de tu cuenta de *iCloud*"
+        },
+        {
+          "icon": "/img/Finales/BulletsPoint/IPhone/OnlyIcons/6.png",
+          "point": "*Elimina* toda la *telemetría espía*"
+        }
+      ],
+      "details": true,
+      "problem": {
+        "title": "",
+        "content": ""
+      },
+      "solution": {
+        "title": "",
+        "content": ""
+      },
+      "features": [
+        {
+          "title": "Privacidad Total en tu iPhone",
+          "content": "Apple no es tan privada como te lo han vendido. Si no lo configuras bien tu iPhone sigue siendo un coladero de datos, básicamente porque tu Apple ID lo recoge todo de ti. Lo bueno es que blindarlo mejor que el móvil del presidente es posible, con ajustes sencillos..",
+          "order": 1,
+          "button": "",
+          "img": "/img/Finales/Modulos/iPhone/Privacidad Total en tu iPhone.png"
+        },
+        {
+          "title": "Formación paso a paso, sin complicaciones",
+          "content": "No necesitas conocimiento técnico. Solo seguir los vídeos paso a paso del curso donde te enseño a limpiar tu iPhone de telemetría espía, configurar perfiles para cifrado DNS y proteger cualquier conexión de tu teléfono móvil.",
+          "order": 0,
+          "button": "Obtener acceso",
+          "img": "/img/Finales/Modulos/iPhone/Formación paso a paso.png"
+        },
+        {
+          "title": "Cuentas anónimas: Apple ID",
+          "content": "Al final del curso recibirás un eBook con todos los ajustes que debes tener configurados en tu iPhone, para que puedas descargarlo para poder consultarlo de por vida.",
+          "order": 1,
+          "button": "",
+          "img": "/img/Finales/Modulos/iPhone/Cuentas anónimas.png"
+        },
+        {
+          "title": "Ebook de privacidad para siempre",
+          "content": "No necesitas conocimiento técnico. Solo seguir los vídeos paso a paso del curso donde te enseño a limpiar tu iPhone de telemetría espía, configurar perfiles para cifrado DNS y proteger cualquier conexión de tu teléfono móvil.",
+          "order": 0,
+          "button": "",
+          "img": "/img/Finales/Modulos/iPhone/Ebook de privacidad.png"
+        }
+      ],
+      "personalNote": {
+        "img": "https://pbs.twimg.com/profile_images/1738914330823798784/YzTyYwez_400x400.jpg",
+        "title": "Nota Personal",
+        "note": "Hay que admitir que Apple construye buenos móviles, pero vende una privacidad inexistente. Eres esclavo de un Apple ID sin el cual no puedes instalar nada de la App Store. Por eso cualquier experto en privacidad te dirá que todo empieza por anonimizar ese Apple ID y luego configurar el móvil con trucos que pocos usuarios de Apple conocen, pero que pueden protegerlos contra ciber-ataques sofisticados como Pegasus.."
+      },
+      "pricing": [
+        {
+          "title": "Plan Estándar",
+          "price": 127,
+          "currency": "€",
+          "description": "Incluye:",
+          "points": [
+            "Curso Bunkeriza tu iPhone - €127",
+            "eBook de Privacidad iPhone - Incluido"
+          ],
+          "textButton": "Obtener",
+          "redirectTo": "https://pay.hotmart.com/M98315225T?checkoutMode=10&bid=1746025453286",
+          "payType": [
+            {
+              "type": "Visa",
+              "icon": "visa"
+            },
+            {
+              "type": "Mastercard",
+              "icon": "master"
+            },
+            {
+              "type": "Amex",
+              "icon": "amex"
+            },
+            {
+              "type": "PayPal",
+              "icon": "paypal"
+            },
+            {
+              "type": "Google pay",
+              "icon": "gpay"
+            }
+          ],
+          "icon": [
+            {
+              "icon": "apple",
+              "color": "#fff"
+            }
+          ]
+        },
+        {
+          "title": "Pack Privacidad Total Apple",
+          "price": [284, 227],
+          "currency": "€",
+          "description": "Incluye:",
+          "points": [
+            "Curso Bunkeriza tu iPhone - €127",
+            "Curso Blinda tu Mac - €157",
+            "eBook Privacidad iPhone - Incluido"
+          ],
+          "textButton": "Obtener",
+          "redirectTo": "https://pay.hotmart.com/Y99485541C?checkoutMode=10&bid=1746025481714",
+          "payType": [
+            {
+              "type": "Visa",
+              "icon": "visa"
+            },
+            {
+              "type": "Mastercard",
+              "icon": "master"
+            },
+            {
+              "type": "Amex",
+              "icon": "amex"
+            },
+            {
+              "type": "PayPal",
+              "icon": "paypal"
+            },
+            {
+              "type": "Google pay",
+              "icon": "gpay"
+            }
+          ],
+          "icon": [
+            {
+              "icon": "apple",
+              "color": "#fff"
+            },
+            {
+              "icon": "mac",
+              "color": "#fff"
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "¿Cuanto dura el curso?",
+          "answer": "Los más de 10 módulos y sus respectivas lecciones se liberan de forma paulatina a lo largo de 2 semanas para asegurar que vayas aplicando todo sin agobios. Tendrás acceso sin restricciones a todo el contenido durante 2 meses."
+        },
+        {
+          "question": "¿Necesito conocimientos previos?",
+          "answer": "No, da igual tu edad o conocimiento, no harás nada complicado que requiera de especialización técnica. Los videos te guían paso a paso usando programas sencillos de utilizar, y en los casos de programas algo más completos te damos las configuraciones pre-hechas por nosotros para que solo tengas que copiar y pegar."
+        },
+        {
+          "question": "¿Necesito saber programar?",
+          "answer": "No, no vas a tocar una sola línea de código. Aprenderás a usar programas que lo harán todo increíblemente fácil para ti, por eso este curso es para cualquier persona independientemente de su punto de partida en tecnología"
+        },
+        {
+          "question": "¿Qué voy a aprender?",
+          "answer": "Desde bloquear cualquier espionaje sobre tu conexión a internet o lo que haces en tu móvil, hasta bloquear intentos de robos de datos avanzados con poderosos sistemas de aislamiento de aplicaciones, para que, en caso de ser infectado, no se venga abajo tu vida por filtraciones de datos indeseadas. Máxima privacidad y seguridad para tu iPhone."
+        }
+      ],
+      "SuccessCasesSection": [
+        {
+          "title": "",
+          "img": "",
+          "description": ""
+        }
+      ],
+      "finalCTA": {
+        "title": "Protege tu privacidad ahora",
+        "description": "La privacidad es la única defensa al control digital moderno",
+        "buttonText": "Obtener",
+        "startRate": "Mas de 128 alumnos activos"
+      }
     },
     {
       "id": 9,
-      "key": "Blinda-mac",
-      "title": "Curso Privacidad MacOS",
-      "price": 137,
+      "icon": "MdOutlineDesktopMac",
+      "key": "Mac",
+      "title": "Blinda tu Mac",
+      "price": 147,
+      "bgColor": "#fffa",
       "currency": "€",
-      "Bg": "https://www.apple.com/newsroom/images/2023/10/apple-unveils-new-macbook-pro-featuring-m3-chips/article/Apple-MacBook-Pro-2up-231030_Full-Bleed-Image.jpg.large_2x.jpg",
-      "description": "Aprende a blindar tu Mac como nunca antes, protege tu vida digital como ningún otro usuario de Apple lo hará jamás...",
+      "Bg": "https://vz-0b00e04e-39c.b-cdn.net/69ea4df1-6ae6-44a1-be80-8ebb410286a3/thumbnail_9c1a939b.jpg",
+      "description": "Protege tu Mac como nadie, maximiza tu seguridad y privacidad. Sin necesidad de conocimientos técnicos",
       "before": false,
+      "video": "69ea4df1-6ae6-44a1-be80-8ebb410286a3",
+      "poster": "https://vz-0b00e04e-39c.b-cdn.net/69ea4df1-6ae6-44a1-be80-8ebb410286a3/thumbnail_9c1a939b.jpg",
       "order": 0,
       "Destacado": false,
-      "cardPay": "https://pay.hotmart.com/I97433852A",
       "proximamente": false,
+      "payButtons": [
+        {
+          "type": "tarjeta",
+          "text": "Obtener con Tarjeta",
+          "link": "https://pay.hotmart.com/I97433852A?checkoutMode=10&bid=1746028250733",
+          "var": "primary"
+        },
+        {
+          "type": "Bitcoin",
+          "text": "Obtener con Bitcoin",
+          "link": "",
+          "var": "secondary"
+        }
+      ],
+      "testimonios": [
+        {
+          "name": "",
+          "testimonio": ""
+        }
+      ],
       "points": [
-        "Configuración avanzada de privacidad",
-        "Cifrado DNS, Firewall y ajustes avanzados",
-        "No necesitas conocimiento técnico",
-        "Explicaciones guiadas paso a paso para novatos"
-      ]
+        {
+          "icon": "/img/Finales/BulletsPoint/Mac/OnlyIcons/1.png",
+          "point": "*Protege* toda *conexión* a internet"
+        },
+        {
+          "icon": "/img/Finales/BulletsPoint/Mac/OnlyIcons/2.png",
+          "point": "*Elimina espionaje* del Mac"
+        },
+        {
+          "icon": "/img/Finales/BulletsPoint/Mac/OnlyIcons/3.png",
+          "point": "*Protección* contra *malware*"
+        },
+        {
+          "icon": "/img/Finales/BulletsPoint/Mac/OnlyIcons/4.png",
+          "point": "*Cifrado* de disco y *archivos*"
+        },
+        {
+          "icon": "/img/Finales/BulletsPoint/Mac/OnlyIcons/5.png",
+          "point": "Configuración de *máxima privacidad*"
+        },
+        {
+          "icon": "/img/Finales/BulletsPoint/Mac/OnlyIcons/6.png",
+          "point": "*Elimina rastros* del sistema"
+        }
+      ],
+      "details": true,
+      "problem": {
+        "title": "",
+        "content": ""
+      },
+      "solution": {
+        "title": "",
+        "content": ""
+      },
+      "features": [
+        {
+          "title": "Privacidad Total para tu Mac",
+          "content": "La gran ventaja de Mac es su potencial oculto, pero la mayoría lo desconoce. Desde cifrado DNS hasta máquinas virtuales, tendrás tu Mac protegido como un profesional en privacidad digital, sin necesidad de conocimiento previo.",
+          "order": 1,
+          "button": "",
+          "img": "/img/Finales/Modulos/Mac/Privacidad Total para tu Mac.png"
+        },
+        {
+          "title": "Formación paso a paso, sin complicaciones",
+          "content": "En Blinda tu Mac la dificulta técnica es nula, nos hemos asegurado de ello, para que aprendas a cifrar archivos, proteger tu información contra ataques de fuerza bruta u otras amenazas así como un largo etcétera. Accederás a videos y lecciones guiadas, configuraciones especializadas, y mucho más…",
+          "order": 0,
+          "button": "Obtener acceso",
+          "img": "/img/Finales/Modulos/Mac/Formación paso a paso.png"
+        }
+      ],
+      "personalNote": {
+        "img": "https://pbs.twimg.com/profile_images/1738914330823798784/YzTyYwez_400x400.jpg",
+        "title": "Nota Personal",
+        "note": "La mayoría de usuarios de Mac desconocen el potencial de privacidad y seguridad que tienen sus equipos. Hemos diseñado este curso para que cualquier persona elimine los programas y la telemetría espía de su Mac, a la vez que se protege de ciber-ataques avanzados de forma sencilla. Hasta hemos preparado los perfiles de configuración del cortafuegos para que solo tengas que copiar y pegar, sin complicaciones."
+      },
+      "pricing": [
+        {
+          "title": "Plan Estándar",
+          "price": 157,
+          "currency": "€",
+          "description": "Incluye:",
+          "points": ["Curso Blinda tu Mac - €157"],
+          "textButton": "Obtener",
+          "redirectTo": "https://pay.hotmart.com/I97433852A?checkoutMode=10&bid=1746028250733",
+          "payType": [
+            {
+              "type": "Visa",
+              "icon": "visa"
+            },
+            {
+              "type": "Mastercard",
+              "icon": "master"
+            },
+            {
+              "type": "Amex",
+              "icon": "amex"
+            },
+            {
+              "type": "PayPal",
+              "icon": "paypal"
+            },
+            {
+              "type": "Google pay",
+              "icon": "gpay"
+            }
+          ],
+          "icon": [
+            {
+              "icon": "mac",
+              "color": "#fff"
+            }
+          ]
+        },
+        {
+          "title": "Pack Privacidad Total Apple",
+          "price": [284, 227],
+          "currency": "€",
+          "description": "Incluye: ",
+          "points": [
+            "Curso Blinda tu Mac - €157",
+            "Curso Bunkeriza tu iPhone - €127",
+            "Creación de Apple ID Anónimo - Incluido",
+            "eBook de Privacidad iPhone - Incluido"
+          ],
+          "textButton": "Obtener",
+          "redirectTo": "https://pay.hotmart.com/Y99485541C?checkoutMode=10&bid=1746025481714",
+          "payType": [
+            {
+              "type": "Visa",
+              "icon": "visa"
+            },
+            {
+              "type": "Mastercard",
+              "icon": "master"
+            },
+            {
+              "type": "Amex",
+              "icon": "amex"
+            },
+            {
+              "type": "PayPal",
+              "icon": "paypal"
+            },
+            {
+              "type": "Google pay",
+              "icon": "gpay"
+            }
+          ],
+          "icon": [
+            {
+              "icon": "mac",
+              "color": "#fff"
+            },
+            {
+              "icon": "apple",
+              "color": "#fff"
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "¿Cuanto dura el curso?",
+          "answer": "Los más de 10 módulos y sus respectivas lecciones se liberan de forma paulatina a lo largo de 2 semanas para asegurar que vayas aplicando todo sin agobios. Tendrás acceso sin restricciones a todo el contenido durante 3 meses."
+        },
+        {
+          "question": "¿Necesito conocimientos previos?",
+          "answer": "No, da igual tu edad o conocimiento, no harás nada complicado que requiera de especialización técnica. Los videos te guían paso a paso usando programas sencillos de utilizar, y en los casos de programas algo más completos te damos las configuraciones pre-hechas por nosotros para que solo tengas que copiar y pegar."
+        },
+        {
+          "question": "¿Necesito saber programar?",
+          "answer": "No, no vas a tocar una sola línea de código. Aprenderás a usar programas que lo harán todo increíblemente fácil para ti, por eso este curso es para cualquier persona independientemente de su punto de partida en tecnología."
+        },
+        {
+          "question": "¿Qué voy a aprender?",
+          "answer": "Desde bloquear cualquier espionaje sobre tu conexión a internet o lo que haces en tu ordenador, hasta bloquear intentos de robos de datos avanzados con poderosos cortafuegos o sistemas de aislamiento de aplicaciones, para que, en caso de ser infectado, no se venga abajo tu vida por filtraciones de datos indeseadas. Máxima privacidad y seguridad para tu Mac."
+        }
+      ],
+      "SuccessCasesSection": [
+        {
+          "title": "",
+          "img": "",
+          "description": ""
+        }
+      ],
+      "finalCTA": {
+        "title": "Protege tu privacidad ahora",
+        "description": "La privacidad es la única defensa al control digital moderno",
+        "buttonText": "Obtener",
+        "startRate": "Mas de 128 alumnos activos"
+      }
     },
     {
       "id": 10,
-      "key": "Blinda-windows",
-      "title": "Curso Privacidad Windows",
-      "price": 137,
+      "icon": "SiWindows10",
+      "key": "Windows",
+      "title": "Blinda tu Windows",
+      "price": 147,
+      "bgColor": "#00ABE8",
       "currency": "€",
-      "Bg": "https://cdn.neowin.com/news/images/galleries/4698/1660655314_windows_12_-_2.jpg",
-      "description": "Windows es el sistema más espía del mundo, pero eso se acaba con esta formación integral de privacidad dirigida...",
+      "Bg": "https://vz-0b00e04e-39c.b-cdn.net/ccd5829d-ec1a-4e28-a9df-854012554358/thumbnail_ceba61d8.jpg",
+      "description": "Elimina el espionaje masivo de Windows y recupera tu privacidad. Sin necesidad de conocimientos técnicos",
       "before": false,
+      "video": "ccd5829d-ec1a-4e28-a9df-854012554358",
+      "poster": "https://vz-0b00e04e-39c.b-cdn.net/ccd5829d-ec1a-4e28-a9df-854012554358/thumbnail_ceba61d8.jpg",
       "order": 1,
       "Destacado": true,
       "cardPay": "https://pay.hotmart.com/Y97437543N",
       "proximamente": false,
+      "payButtons": [
+        {
+          "type": "tarjeta",
+          "text": "Obtener con Tarjeta",
+          "link": "https://pay.hotmart.com/Y97437543N?checkoutMode=10&bid=1746028195196",
+          "var": "primary"
+        },
+        {
+          "type": "Bitcoin",
+          "text": "Obtener con Bitcoin",
+          "link": "",
+          "var": "secondary"
+        }
+      ],
+      "testimonios": [
+        {
+          "name": "",
+          "testimonio": ""
+        }
+      ],
       "points": [
-        "Desactivación total de telemetría espía",
-        "Cifrado de disco y archivos avanzada",
-        "Optimización de sistema y apps únicas",
-        "No necesitas conocimientos técnicos"
-      ]
+        {
+          "icon": "/img/Finales/BulletsPoint/Windows/OnlyIcons/1.png",
+          "point": "*Protección* contra *malware*"
+        },
+        {
+          "icon": "/img/Finales/BulletsPoint/Windows/OnlyIcons/2.png",
+          "point": "*Elimina espionaje* del PC"
+        },
+        {
+          "icon": "/img/Finales/BulletsPoint/Windows/OnlyIcons/3.png",
+          "point": "  *Protege* toda *conexión* a internet"
+        },
+        {
+          "icon": "/img/Finales/BulletsPoint/Windows/OnlyIcons/4.png",
+          "point": "*Elimina rastros* del sistema"
+        },
+        {
+          "icon": "/img/Finales/BulletsPoint/Windows/OnlyIcons/5.png",
+          "point": "*Cifrado* de disco y *archivos*"
+        },
+        {
+          "icon": "/img/Finales/BulletsPoint/Windows/OnlyIcons/6.png",
+          "point": "Configuración de *máxima privacidad*"
+        }
+      ],
+      "details": false,
+      "problem": {
+        "title": "",
+        "content": ""
+      },
+      "solution": {
+        "title": "",
+        "content": ""
+      },
+      "features": [
+        {
+          "title": "Privacidad Total en Windows",
+          "content": "Windows es el sistema operativo más espía y menos seguro del mundo. Aunque existen configuraciones y programas que no solo limpian tu PC de software espía, sino que lo protegen contra toda amenaza y aumentan su rendimiento al eliminar procesos que espían tu actividad en segundo plano…",
+          "order": 1,
+          "button": "",
+          "img": "/img/Finales/Modulos/Windows/Privacidad Total para tu Windows.png"
+        },
+        {
+          "title": "Formación paso a paso, sin complicaciones",
+          "content": "No necesitas conocimiento técnico. Solo seguir los vídeos paso a paso del curso donde te enseño a limpiar de amenazas a la privacidad tu ordenador, todo ello de forma rápida, sin necesidad de saber nada de informática. Cifrarás toda conexión de tu PC y lo protegerás contra cualquier ataque mediante potentes cortafuegos y técnicas de cifrado que nadie conoce",
+          "order": 0,
+          "button": "Obtener acceso",
+          "img": "/img/Finales/Modulos/Windows/Formación paso a paso.png"
+        },
+        {
+          "title": "Virtualización Avanzada e Introducción a Linux",
+          "content": "Al final del curso aprenderás a instalar sistemas amnésicos ultra-privados como TailsOS en máquinas virtuales. También, para que pierdas el miedo a Linux, te introduce a Linux Mint, una distribución de Linux de alta comodidad y privacidad base. Tranquilo, no necesitas saber programar ni tener conocimientos previos.",
+          "order": 1,
+          "button": "",
+          "img": "/img/Finales/Modulos/Windows/Virtualización Avanzada.png"
+        }
+      ],
+      "personalNote": {
+        "img": "https://pbs.twimg.com/profile_images/1738914330823798784/YzTyYwez_400x400.jpg",
+        "title": "Nota Personal",
+        "note": "Cuando empecé en privacidad usaba Windows, y conforme aprendía a hacer todo lo que se enseña en Blinda tu Windows, me di cuenta de como mi ordenador no solo funcionaba más fluido, sino que por fin me sentía a salvo en internet, usando mi PC sin miedo a estar siendo espiado o hackeado. Hay que seguir varios pasos pero no tienes que saber programar ni meterte en cosas complicadas, de hecho, hasta te voy a enseñar a empezar en Linux sin complicarte.."
+      },
+      "pricing": [
+        {
+          "title": "Plan Estándar",
+          "price": 157,
+          "currency": "€",
+          "description": "Incluye:",
+          "points": ["Curso Blinda tu Windows - €157"],
+          "textButton": "Obtener",
+          "redirectTo": "https://pay.hotmart.com/Y97437543N?checkoutMode=10&bid=1746028195196",
+          "payType": [
+            {
+              "type": "Visa",
+              "icon": "visa"
+            },
+            {
+              "type": "Mastercard",
+              "icon": "master"
+            },
+            {
+              "type": "Amex",
+              "icon": "amex"
+            },
+            {
+              "type": "PayPal",
+              "icon": "paypal"
+            },
+            {
+              "type": "Google pay",
+              "icon": "gpay"
+            }
+          ],
+          "icon": [
+            {
+              "icon": "win",
+              "color": "#0078D4"
+            }
+          ]
+        },
+        {
+          "title": "Plan Privacidad 360",
+          "price": [284, 227],
+          "currency": "€",
+          "description": "Incluye:",
+          "points": [
+            "Curso Blinda tu Windows - €157",
+            "Curso Bunkeriza tu Android - €127",
+            "Instalación de GrapheneOS - Incluido",
+            "eBook de Privacidad Android - Incluido"
+          ],
+          "textButton": "Obtener",
+          "redirectTo": "https://pay.hotmart.com/F99485435Y?checkoutMode=10&bid=1746028073187",
+          "payType": [
+            {
+              "type": "Visa",
+              "icon": "visa"
+            },
+            {
+              "type": "Mastercard",
+              "icon": "master"
+            },
+            {
+              "type": "Amex",
+              "icon": "amex"
+            },
+            {
+              "type": "PayPal",
+              "icon": "paypal"
+            },
+            {
+              "type": "Google pay",
+              "icon": "gpay"
+            }
+          ],
+          "icon": [
+            {
+              "icon": "android",
+              "color": "#A4C639"
+            },
+            {
+              "icon": "win",
+              "color": "#0078D4"
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "¿Cuanto dura el curso?",
+          "answer": "Los más de 10 módulos y sus respectivas lecciones se liberan de forma paulatina a lo largo de 2 semanas para asegurar que vayas aplicando todo sin agobios. Tendrás acceso sin restricciones a todo el contenido durante 3 meses."
+        },
+        {
+          "question": "¿Necesito conocimientos previos?",
+          "answer": "No, da igual tu edad o conocimiento, no harás nada complicado que requiera de especialización técnica. Los videos te guían paso a paso usando programas sencillos de utilizar, y en los casos de programas algo más completos te damos las configuraciones pre-hechas por nosotros para que solo tengas que copiar y pegar."
+        },
+        {
+          "question": "¿Necesito saber programar?",
+          "answer": "No, no vas a tocar una sola línea de código. Aprenderás a usar programas que lo harán todo increíblemente fácil para ti, por eso este curso es para cualquier persona independientemente de su punto de partida en tecnología."
+        },
+        {
+          "question": "¿Qué voy a aprender?",
+          "answer": "Desde bloquear cualquier espionaje sobre tu conexión a internet o lo que haces en tu ordenador, hasta bloquear intentos de robos de datos avanzados con poderosos cortafuegos o sistemas de aislamiento de aplicaciones, para que, en caso de ser infectado, no se venga abajo tu vida por filtraciones de datos indeseadas. Máxima privacidad y seguridad para tu Mac."
+        }
+      ],
+      "SuccessCasesSection": [
+        {
+          "title": "",
+          "img": "",
+          "description": ""
+        }
+      ],
+      "finalCTA": {
+        "title": "Protege tu privacidad ahora",
+        "description": "La privacidad es la única defensa al control digital moderno",
+        "buttonText": "Obtener",
+        "startRate": "Mas de 128 alumnos activos"
+      }
     },
     {
       "id": 7,
-      "key": "Blinda-android",
-      "title": "Blinda tu Android",
-      "price": 97,
+      "icon": "SiAndroid",
+      "key": "Android",
+      "title": "Bunkeriza tu Android",
+      "price": 127,
+      "bgColor": "#666",
       "currency": "€",
-      "Bg": "https://i.blogs.es/63c3f7/guia-para-comprar-mejores-telefono-samsung/1366_2000.jpg",
-      "description": "Transforma tu android espía en un sistema seguro y privado como nunca antes has experimentado con esta formación",
+      "Bg": "https://vz-0b00e04e-39c.b-cdn.net/6ab241a3-e9d6-46d5-971d-39f528afdbc7/thumbnail_64a8bbaa.jpg",
+      "description": "Deja de permitir que tu móvil te escuche y blinda tu Android como nadie. Sin necesidad de conocimiento previo",
       "before": false,
-      "video": "https://firebasestorage.googleapis.com/v0/b/tokin-privacy-storage.appspot.com/o/anuncioTokinPrivacy-2.0.mp4?alt=media&token=b1e9b436-7687-41d0-acbf-884a12389319",
+      "video": "6ab241a3-e9d6-46d5-971d-39f528afdbc7",
       "order": 0,
-      "poster": "https://www.gizmochina.com/wp-content/uploads/2023/07/Android-new-logo.png",
+      "poster": "https://vz-0b00e04e-39c.b-cdn.net/6ab241a3-e9d6-46d5-971d-39f528afdbc7/thumbnail_64a8bbaa.jpg",
       "Destacado": false,
-      "cardPay": "",
-      "proximamente": true,
+      "proximamente": false,
+      "payButtons": [
+        {
+          "type": "tarjeta",
+          "text": "Obtener con Tarjeta",
+          "link": "https://pay.hotmart.com/X99332972Q?checkoutMode=10&bid=1746027999482",
+          "var": "primary"
+        },
+        {
+          "type": "Bitcoin",
+          "text": "Obtener con Bitcoin",
+          "link": "",
+          "var": "secondary"
+        }
+      ],
+      "testimonios": [
+        {
+          "name": "",
+          "testimonio": ""
+        }
+      ],
       "points": [
-        "Videos paso a paso",
-        "Ajustes de seguridad y privacidad total",
-        "Di adiós al oculto espionaje de Google",
-        "Sin necesidad de conocimiento previo"
-      ]
-    },
-    {
-      "id": 11,
-      "key": "bitcoin",
-      "title": "Iniciacion a Bitcoin",
-      "price": 290,
-      "currency": "€",
-      "Bg": "https://www.cripto247.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk4MTc5NDAyNjQxNTgxMTI4/el-curioso-mtodo-por-el-que-pronostican-un-crecimiento-de-bitcoin-hacia-los-74000-dlares.jpg",
-      "description": "La formación que a todo novato le habría gustado tener. Desde comprarlo de forma anónima y privada hasta atesorarlo como un PRO",
-      "before": false,
-      "order": 1,
-      "Destacado": true,
-      "cardPay": "",
-      "proximamente": true,
-      "points": [
-        "Compra anónima y privada de Bitcoin",
-        "Uso soberano de la red principal y lightning network",
-        "Nodos y billeteras privadas",
-        "Videos paso a paso",
-        "Sin necesidad de conocimiento previo"
-      ]
+        {
+          "icon": "/img/Finales/BulletsPoint/Android/OnlyIcons/1.png",
+          "point": "*Cifrado* de cualquier *conexión* de tu *Android*"
+        },
+        {
+          "icon": "/img/Finales/BulletsPoint/Android/OnlyIcons/2.png",
+          "point": "*Crea* una *cuenta* de *Google anónima*"
+        },
+        {
+          "icon": "/img/Finales/BulletsPoint/Android/OnlyIcons/3.png",
+          "point": "*Protección total* de tu móvil *Android*"
+        },
+        {
+          "icon": "/img/Finales/BulletsPoint/Android/OnlyIcons/4.png",
+          "point": "*Configuración* de *máxima* seguridad y *privacidad*"
+        },
+        {
+          "icon": "/img/Finales/BulletsPoint/Android/OnlyIcons/5.png",
+          "point": "*Instalación* y configuración de *GrapheneOS*"
+        },
+        {
+          "icon": "/img/Finales/BulletsPoint/Android/OnlyIcons/6.png",
+          "point": "*Elimina* toda la *telemetría espía*"
+        }
+      ],
+      "details": true,
+      "problem": {
+        "title": "",
+        "content": ""
+      },
+      "solution": {
+        "title": "",
+        "content": ""
+      },
+      "features": [
+        {
+          "title": "Máxima privacidad en Android",
+          "content": "Google es la empresa más espía del mundo, y tu Android le pertenece si no lo configuras adecuadamente. ¿Te sorprende que tu móvil te escuche? Pues espera a ver porque cuando hagas el curso. La ventaja que tienes es que Android permite gran configurabilidad, y lo puedes transformar en un auténtico Búnker..",
+          "order": 1,
+          "button": "",
+          "img": "/img/Finales/Modulos/Android/Máxima privacidad en Android.png"
+        },
+        {
+          "title": "Formación paso a paso, sin complicaciones",
+          "content": "No necesitas conocimiento técnico. Solo seguir los vídeos paso a paso del curso donde te enseño a limpiar tu Android de telemetría espía, configurar perfiles para cifrado DNS y proteger cualquier conexión de tu teléfono móvil a todos los niveles, incluyen enrolamiento proxy a TOR e i2P.",
+          "order": 0,
+          "button": "Obtener acceso",
+          "img": "/img/Finales/Modulos/Android/Formación paso a paso.png"
+        },
+        {
+          "title": "Cuentas anónimas: Google",
+          "content": "Puedes incluso usar un Android con cuentas de Google anónimas usando proxy-stores como Aurora (te cuento más dentro), lo que si tengo que decirte es que te voy a enseñar a crear cuentas online totalmente privadas, usando de ejemplo al propio Google, gmail y todo su ecosistema..",
+          "order": 1,
+          "button": "",
+          "img": "/img/Finales/Modulos/Android/Cuentas anónimas.png"
+        },
+        {
+          "title": "Ebook de privacidad para siempre",
+          "content": "Al final del curso recibirás un eBook con todos los ajustes que debes tener configurados en tu Android, para que puedas descargarlo y consultarlo de por vida.",
+          "order": 0,
+          "button": "",
+          "img": "/img/Finales/Modulos/Android/Ebook de privacidad.png"
+        }
+      ],
+      "personalNote": {
+        "img": "https://pbs.twimg.com/profile_images/1738914330823798784/YzTyYwez_400x400.jpg",
+        "title": "Nota Personal",
+        "note": "Todos saben que tu móvil te escucha, pero nadie te ha explicado como evitarlo. Google es la compañía más espía del mundo y la llevas en tu bolsillo. Lo bueno y tremendamente desconocido, es que Android es muy versátil, y puedes transformarlo de ser un espía de tu intimidad a ser un bastión digital increíblemente privado si sabes como hacerlo. Entonces, puedes permitir que siga espiándote, o tomar acción y bunkerizar tu Android, proteger tu privacidad y por ende tu libertad..."
+      },
+      "pricing": [
+        {
+          "title": "Plan Estándar",
+          "price": 127,
+          "currency": "€",
+          "description": "Incluye:",
+          "points": [
+            "Curso Bunkeriza tu Android - €127",
+            "eBook de Privacidad Android - Incluido"
+          ],
+          "textButton": "Obtener",
+          "redirectTo": "https://pay.hotmart.com/X99332972Q?checkoutMode=10&bid=1746027999482",
+          "payType": [
+            {
+              "type": "Visa",
+              "icon": "visa"
+            },
+            {
+              "type": "Mastercard",
+              "icon": "master"
+            },
+            {
+              "type": "Amex",
+              "icon": "amex"
+            },
+            {
+              "type": "PayPal",
+              "icon": "paypal"
+            },
+            {
+              "type": "Google pay",
+              "icon": "gpay"
+            }
+          ],
+          "icon": [
+            {
+              "icon": "android",
+              "color": "#A4C639"
+            }
+          ]
+        },
+        {
+          "title": "Pack Privacidad 360",
+          "price": [284, 227],
+          "currency": "€",
+          "description": "Incluye:",
+          "points": [
+            "Curso Bunkeriza tu Android - €127",
+            "Curso Blinda tu Windows - €157",
+            "eBook de Privacidad Android - Incluido"
+          ],
+          "textButton": "Obtener",
+          "redirectTo": "https://pay.hotmart.com/F99485435Y?checkoutMode=10&bid=1746028073187",
+          "payType": [
+            {
+              "type": "Visa",
+              "icon": "visa"
+            },
+            {
+              "type": "Mastercard",
+              "icon": "master"
+            },
+            {
+              "type": "Amex",
+              "icon": "amex"
+            },
+            {
+              "type": "PayPal",
+              "icon": "paypal"
+            },
+            {
+              "type": "Google pay",
+              "icon": "gpay"
+            }
+          ],
+          "icon": [
+            {
+              "icon": "android",
+              "color": "#A4C639"
+            },
+            {
+              "icon": "win",
+              "color": "#0078D4"
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "¿Cuanto dura el curso?",
+          "answer": "Los más de 10 módulos y sus respectivas lecciones se liberan de forma paulatina a lo largo de 2 semanas para asegurar que vayas aplicando todo sin agobios. Tendrás acceso sin restricciones a todo el contenido durante 2 meses."
+        },
+        {
+          "question": "¿Necesito conocimientos previos?",
+          "answer": "No, da igual tu edad o conocimiento, no harás nada complicado que requiera de especialización técnica. Los videos te guían paso a paso usando programas sencillos de utilizar, y en los casos de programas algo más completos te damos las configuraciones pre-hechas por nosotros para que solo tengas que copiar y pegar."
+        },
+        {
+          "question": "¿Necesito saber programar?",
+          "answer": "No, no vas a tocar una sola línea de código. Aprenderás a usar programas que lo harán todo increíblemente fácil para ti, por eso este curso es para cualquier persona independientemente de su punto de partida en tecnología."
+        },
+        {
+          "question": "¿Qué voy a aprender?",
+          "answer": "Desde bloquear cualquier espionaje sobre tu conexión a internet o lo que haces en tu móvil, hasta bloquear intentos de robos de datos avanzados con poderosos sistemas de aislamiento de aplicaciones, para que, en caso de ser infectado, no se venga abajo tu vida por filtraciones de datos indeseadas. Máxima privacidad y seguridad para tu Android."
+        }
+      ],
+      "SuccessCasesSection": [
+        {
+          "title": "",
+          "img": "",
+          "description": ""
+        }
+      ],
+      "finalCTA": {
+        "title": "Protege tu privacidad ahora",
+        "description": "La privacidad es la única defensa al control digital moderno",
+        "buttonText": "Obtener",
+        "startRate": "Mas de 128 alumnos activos"
+      }
     }
   ],
-  "courses_release_date": "2024-11-20",
   "master": {
     "id": 12,
     "key": "master",

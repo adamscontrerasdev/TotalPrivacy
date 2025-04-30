@@ -3,19 +3,8 @@ import React, { useState, useEffect, useRef } from "react";
 import { useBrowserMode } from "@/app/Elements/hooks/globalHooks/BrowserModeContext";
 import { usePathname } from "next/navigation";
 import { useScrollBlock } from "@/app/Elements/hooks/globalHooks/ScrollBlockContext";
-// import styles from "./Browser.module.css";
 
 const data = {
-  ebooks: [
-    { id: 1, key: "iphone", title: "Bunkeriza tu iPhone", category: "Ebook" },
-    { id: 2, key: "android", title: "Bunkeriza tu Android", category: "Ebook" },
-    {
-      id: 3,
-      key: "OffShore",
-      title: "Protección Off-Shore",
-      category: "Ebook",
-    },
-  ],
   cursos: [
     { id: 8, key: "grapheneos", title: "Curso GrapheneOS", category: "Curso" },
     {
@@ -52,11 +41,6 @@ const data = {
 };
 
 const searchList = [
-  ...data.ebooks.map((ebook) => ({
-    name: ebook.title,
-    path: `/ebooks#${ebook.key}`,
-    category: ebook.category,
-  })),
   ...data.cursos.map((curso) => ({
     name: curso.title,
     path: `/cursos#${curso.key}`,
@@ -228,7 +212,7 @@ export const BrowserComponent = () => {
         )}
 
         {search && (
-          <div className="p-4 overflow-y-auto w-full h-[calc(100%-5rem)]">
+          <div className="p-4 overflow-y-auto w-full h-[calc(100%-5rem)] flex flex-col gap-4">
             {filteredResults.length > 0 ? (
               filteredResults.map((item, index) => (
                 <div

@@ -1,10 +1,10 @@
 import React from "react";
-import { InicioScreen } from "./Screens/index";
+import { InicioScreen2 } from "./Screens/index";
 
 const page = () => {
   return (
     <div>
-      <InicioScreen />
+      <InicioScreen2 />
     </div>
   );
 };

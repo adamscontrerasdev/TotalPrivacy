@@ -10,3 +10,6 @@ export * from "./navBarElements/EBooksOfTheNavBar";
 
 //renderVideoElement
 export * from "./rendervideoElement/ProgressBarElement";
+
+//types
+export * from "./types";

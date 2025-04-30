@@ -7,18 +7,18 @@ import {
   SiBitcoinsv,
   SiGrapheneos,
 } from "react-icons/si";
-import { TbDeviceImac } from "react-icons/tb";
+import { MdOutlineDesktopMac } from "../icons/Mac";
+
 import styles from "./ElementsNavBar.module.css";
 import { GeneralCardOfNavbar } from "./../../Elements/index";
-import dataOfCurso from "./../../../../public/data/icoAndTitleOfTheNavBar.json";
+import dataOfCurso from "./../../../../public/data/products.json";
 import { useIsMobile } from "../hooks";
-import { LuMenu } from "react-icons/lu";
 import Link from "next/link";
 
 // Mapping icon names to react-icons components
 const iconMap: Record<string, React.ElementType> = {
   SiApple,
-  TbDeviceImac,
+  MdOutlineDesktopMac,
   SiWindows10,
   SiAndroid,
   SiBitcoinsv,
@@ -40,7 +40,7 @@ export const CursoOfTheNavBar: React.FC<CursoOfTheNavBarProps> = ({
   const [isAnimated, setIsAnimated] = useState(false);
   const isMobile = useIsMobile();
 
-  const iconCards = Array.isArray(dataOfCurso.curso) ? dataOfCurso.curso : [];
+  const iconCards = Array.isArray(dataOfCurso.cursos) ? dataOfCurso.cursos : [];
 
   useEffect(() => {
     if (isVisible) {
@@ -59,17 +59,10 @@ export const CursoOfTheNavBar: React.FC<CursoOfTheNavBarProps> = ({
   return (
     isRendered && (
       <div className="flex flex-col md:flex-row items-center justify-evenly w-3/4  text-text  absolute top-0 h-[95%] md:h-full ">
-        {isMobile && (
-          <Link href={"/cursos"} onClick={closeMenu}>
-            <div className="flex flex-col items-center justify-center">
-              <LuMenu />
-              <h3>Todos los cursos</h3>
-            </div>
-          </Link>
-        )}
+        {isMobile && <div onClick={closeMenu}></div>}
 
-        {iconCards.map(({ Icon, title, key }, index) => {
-          const IconComponent = iconMap[Icon];
+        {iconCards.map(({ icon, title, key }, index) => {
+          const IconComponent = iconMap[icon];
           if (!IconComponent) return null;
 
           // Reduce el delay para una desaparición más rápida
@@ -89,7 +82,7 @@ export const CursoOfTheNavBar: React.FC<CursoOfTheNavBarProps> = ({
                 transitionDelay: `${delay}ms`,
               }}
             >
-              <Link href={`/cursos#${key}`} onClick={closeMenu}>
+              <Link href={`/curso/${key}`} onClick={closeMenu}>
                 <GeneralCardOfNavbar ico={IconComponent} title={title} />
               </Link>
             </div>

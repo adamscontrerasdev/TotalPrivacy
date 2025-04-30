@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import data from "./../../../public/data/products.json";
 import { CardOFProduct, StaticIsland } from "../Components";
 import { useScrollBlock } from "../Elements/hooks/globalHooks/ScrollBlockContext";
-import { Filters } from "@/app/Elements";
+import { Filters, Product } from "@/app/Elements";
 import { useIsMobile } from "@/app/Elements/hooks";
 import {
   ContentListProvider,
@@ -26,7 +26,7 @@ const ContentListInner = ({
 }) => {
   const { type } = use(params);
   const { scrollBlock } = useScrollBlock();
-  const items = data[type as "ebooks" | "cursos"];
+  const items = data[type as "cursos"];
   const sectionRefs = useRef<{ [key: string]: HTMLDivElement | null }>({});
   const [activeCircle, setActiveCircle] = useState<string>(
     items ? items[0]?.key || "" : "",
@@ -36,7 +36,7 @@ const ContentListInner = ({
   const isMobile = useIsMobile();
   const { filter } = useContentList(); // Ahora useContentList se usa dentro del proveedor.
   const filteredItems = filter
-    ? items.filter((item) => !item.proximamente)
+    ? items.filter((item: Product) => !item.proximamente)
     : items;
 
   if (!filteredItems) {
@@ -186,25 +186,14 @@ const ContentListInner = ({
       >
         {!isMobile && <Filters />}
 
-        {filteredItems.map((item) => (
+        {filteredItems.map((item: Product) => (
           <div
             key={item.id}
             className="section w-screen h-screen flex flex-col items-center justify-center relative"
             id={item.key}
-            ref={setRef(item.key)}
+            ref={setRef(item.key || "")}
           >
-            <CardOFProduct
-              title={item.title}
-              price={item.price}
-              currency={item.currency}
-              Bg={item.Bg}
-              description={item.description}
-              before={item.before && item.before}
-              order={item.order}
-              cardPay={item.cardPay}
-              proximamente={item.proximamente}
-              points={item.points}
-            />
+            <CardOFProduct product={item} key={item.id} />
           </div>
         ))}
       </div>
