@@ -216,10 +216,7 @@
         },
         {
           "title": "Pack Privacidad 360",
-          "price": [
-            284,
-            227
-          ],
+          "price": [284, 227],
           "currency": "€",
           "description": "Incluye:",
           "points": [
@@ -386,15 +383,8 @@
           ],
           "textButton": "Obtener",
           "redirectTo": "",
-          "payType": [
-            "visa",
-            "amex",
-            "mastercard",
-            "bitcoin"
-          ],
-          "icon": [
-            "gem"
-          ]
+          "payType": ["visa", "amex", "mastercard", "bitcoin"],
+          "icon": ["gem"]
         },
         {
           "title": "Pack Privacidad Total Apple",
@@ -415,16 +405,8 @@
           ],
           "textButton": "Obtener",
           "redirectTo": "",
-          "payType": [
-            "visa",
-            "amex",
-            "mastercard",
-            "bitcoin"
-          ],
-          "icon": [
-            "apple",
-            "gem"
-          ]
+          "payType": ["visa", "amex", "mastercard", "bitcoin"],
+          "icon": ["apple", "gem"]
         }
       ],
       "faq": [
@@ -546,15 +528,8 @@
           ],
           "textButton": "Obtener",
           "redirectTo": "",
-          "payType": [
-            "visa",
-            "amex",
-            "mastercard",
-            "bitcoin"
-          ],
-          "icon": [
-            "gem"
-          ]
+          "payType": ["visa", "amex", "mastercard", "bitcoin"],
+          "icon": ["gem"]
         },
         {
           "title": "Pack Privacidad Total Apple",
@@ -575,16 +550,8 @@
           ],
           "textButton": "Obtener",
           "redirectTo": "",
-          "payType": [
-            "visa",
-            "amex",
-            "mastercard",
-            "bitcoin"
-          ],
-          "icon": [
-            "apple",
-            "gem"
-          ]
+          "payType": ["visa", "amex", "mastercard", "bitcoin"],
+          "icon": ["apple", "gem"]
         }
       ],
       "faq": [

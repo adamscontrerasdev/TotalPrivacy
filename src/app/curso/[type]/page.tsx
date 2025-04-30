@@ -21,10 +21,11 @@ export default async function DetailsPage({
   const resolvedParams = await Promise.resolve(params);
   const typeValue = await resolvedParams.type;
 
-  const type = typeof typeValue === "string" ? typeValue.trim().toLowerCase() : "";
+  const type =
+    typeof typeValue === "string" ? typeValue.trim().toLowerCase() : "";
 
   const productRaw = cursos.find(
-    (item) => item.key?.trim().toLowerCase() === type
+    (item) => item.key?.trim().toLowerCase() === type,
   );
 
   if (!productRaw) {
