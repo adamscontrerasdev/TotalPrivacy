@@ -250,7 +250,7 @@ const MultiplePlanCard: React.FC<{
           <ButtonVSL
             value={plan.textButton}
             variant="primary"
-            redirect={payButtons?.[0].link}
+            redirect={plan.redirectTo}
           />
 
           <div className="flex items-center gap-3 text-sm opacity-60 flex-wrap justify-center ">

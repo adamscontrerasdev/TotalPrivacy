@@ -1,12 +1,17 @@
 import React from "react";
 import { ButtonVSL, ContainerSections } from "../components";
-import { Product, Features } from "@/app/Elements";
+import { Product, Features, PayButton } from "@/app/Elements";
 
 interface Props {
   product?: Product;
 }
 
-const FeaturesCard: React.FC<{ feature: Features }> = ({ feature }) => {
+interface FeaturesCardProps {
+  feature: Features;
+  payButtons?: PayButton[];
+}
+
+const FeaturesCard: React.FC<FeaturesCardProps> = ({ feature, payButtons }) => {
   const { title, content, button, order } = feature;
 
   if (!title || !content || order === undefined) return null;
@@ -25,7 +30,15 @@ const FeaturesCard: React.FC<{ feature: Features }> = ({ feature }) => {
           {content}
         </p>
         {button && button !== "" && (
-          <ButtonVSL value={button} sm={false} variant="primary" openModal />
+          <ButtonVSL
+            value={button}
+            sm={false}
+            variant="primary"
+            openModal={{
+              tarjeta: payButtons?.[0]?.link ?? "",
+              bitcoin: payButtons?.[1]?.link ?? "",
+            }}
+          />
         )}
       </div>
       <div
@@ -57,7 +70,11 @@ export const FeaturesSection: React.FC<Props> = ({ product }) => {
     <ContainerSections>
       <div className="w-full max-w-6xl 2xl:max-w-7xl flex flex-col gap-5 md:gap-10 lg:gap-20 ">
         {features.map((feature, index) => (
-          <FeaturesCard key={index} feature={feature} />
+          <FeaturesCard
+            key={index}
+            feature={feature}
+            payButtons={product?.payButtons}
+          />
         ))}
       </div>
     </ContainerSections>

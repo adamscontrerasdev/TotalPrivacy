@@ -20,7 +20,7 @@
         {
           "type": "tarjeta",
           "text": "Obtener con Tarjeta",
-          "link": "https://pay.hotmart.com/I97433852A",
+          "link": "https://pay.hotmart.com/M98315225T?checkoutMode=10&bid=1746025383335",
           "var": "primary"
         },
         {
@@ -117,7 +117,7 @@
             "eBook de Privacidad iPhone - Incluido"
           ],
           "textButton": "Obtener",
-          "redirectTo": "",
+          "redirectTo": "https://pay.hotmart.com/M98315225T?checkoutMode=10&bid=1746025453286",
           "payType": [
             {
               "type": "Visa",
@@ -165,7 +165,7 @@
             "eBook Privacidad iPhone - Incluido"
           ],
           "textButton": "Obtener",
-          "redirectTo": "",
+          "redirectTo": "https://pay.hotmart.com/Y99485541C?checkoutMode=10&bid=1746025481714",
           "payType": [
             {
               "type": "Visa",

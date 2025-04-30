@@ -1,12 +1,12 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 interface Props {
   value?: string;
   sm?: boolean;
   variant?: "primary" | "secondary";
   redirect?: string;
-  openModal?: boolean;
+  openModal?: { tarjeta?: string; bitcoin?: string };
 }
 
 export const ButtonVSL: React.FC<Props> = ({
@@ -17,6 +17,24 @@ export const ButtonVSL: React.FC<Props> = ({
   openModal,
 }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const buttonRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!openModal || !buttonRef.current) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry.isIntersecting) {
+          setIsOpen(false);
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    observer.observe(buttonRef.current);
+
+    return () => observer.disconnect();
+  }, [openModal]);
 
   const primaryGradient = "linear-gradient(to right, #00b4ff, #0083ff)";
   const secondaryGradient =
@@ -59,6 +77,7 @@ export const ButtonVSL: React.FC<Props> = ({
           onClick={() => {
             setIsOpen(!isOpen);
           }}
+          ref={buttonRef}
         >
           <p className={`text-white ${isOpen ? "opacity-0" : ""}`}>{value}</p>
           <div
@@ -70,6 +89,11 @@ export const ButtonVSL: React.FC<Props> = ({
               style={{
                 background: primaryGradient,
               }}
+              onClick={() => {
+                if (openModal?.tarjeta) {
+                  window.location.href = openModal.tarjeta;
+                }
+              }}
             >
               Tarjeta
             </button>
@@ -77,6 +101,11 @@ export const ButtonVSL: React.FC<Props> = ({
               className={`h-full w-full text-black text-xl`}
               style={{
                 background: secondaryGradient,
+              }}
+              onClick={() => {
+                if (openModal?.bitcoin) {
+                  window.location.href = openModal.bitcoin;
+                }
               }}
             >
               Bitcoin
