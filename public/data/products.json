@@ -665,9 +665,9 @@
       }
     },
     {
-      "id": 4,
+      "id": 5,
       "icon": "SiAndroid",
-      "key": "RARO",
+      "key": "Andorid",
       "title": "Bunkeriza tu Android",
       "price": 127,
       "bgColor": "#666",
@@ -676,8 +676,8 @@
       "description": "Deja de permitir que tu móvil te escuche y blinda tu Android como nadie. Sin necesidad de conocimiento previo",
       "before": false,
       "video": "6ab241a3-e9d6-46d5-971d-39f528afdbc7",
-      "order": 0,
       "poster": "https://vz-0b00e04e-39c.b-cdn.net/6ab241a3-e9d6-46d5-971d-39f528afdbc7/thumbnail_64a8bbaa.jpg",
+      "order": 1,
       "Destacado": false,
       "proximamente": false,
       "payButtons": [
@@ -876,234 +876,6 @@
         {
           "question": "¿Qué voy a aprender?",
           "answer": "Desde bloquear cualquier espionaje sobre tu conexión a internet o lo que haces en tu móvil, hasta bloquear intentos de robos de datos avanzados con poderosos sistemas de aislamiento de aplicaciones, para que, en caso de ser infectado, no se venga abajo tu vida por filtraciones de datos indeseadas. Máxima privacidad y seguridad para tu Android."
-        }
-      ],
-      "SuccessCasesSection": [
-        {
-          "title": "",
-          "img": "",
-          "description": ""
-        }
-      ],
-      "finalCTA": {
-        "title": "Protege tu privacidad ahora",
-        "description": "La privacidad es la única defensa al control digital moderno",
-        "buttonText": "Obtener",
-        "startRate": "Mas de 128 alumnos activos"
-      }
-    },
-    {
-      "id": 5,
-      "icon": "SiAndroid",
-      "key": "Andorid",
-      "title": "Bunkeriza tu Android",
-      "price": 127,
-      "bgColor": "#666",
-      "currency": "€",
-      "Bg": "https://vz-0b00e04e-39c.b-cdn.net/6ab241a3-e9d6-46d5-971d-39f528afdbc7/thumbnail_64a8bbaa.jpg",
-      "description": "Deja de permitir que tu móvil te escuche y blinda tu Android como nadie. Sin necesidad de conocimiento previo",
-      "before": false,
-      "video": "6ab241a3-e9d6-46d5-971d-39f528afdbc7",
-      "poster": "https://vz-0b00e04e-39c.b-cdn.net/6ab241a3-e9d6-46d5-971d-39f528afdbc7/thumbnail_64a8bbaa.jpg",
-      "order": 1,
-      "Destacado": false,
-      "proximamente": false,
-      "payButtons": [
-        {
-          "type": "tarjeta",
-          "text": "Obtener con Tarjeta",
-          "link": "https://pay.hotmart.com/X99332972Q?checkoutMode=10&bid=1746027999482",
-          "var": "primary"
-        },
-        {
-          "type": "Bitcoin",
-          "text": "Obtener con Bitcoin",
-          "link": "",
-          "var": "secondary"
-        }
-      ],
-      "testimonios": [
-        {
-          "name": "",
-          "testimonio": ""
-        }
-      ],
-      "points": [
-        {
-          "icon": "/img/Finales/BulletsPoint/Android/OnlyIcons/1.png",
-          "point": "*Cifrado* de cualquier *conexión* de tu *Android*"
-        },
-        {
-          "icon": "/img/Finales/BulletsPoint/Android/OnlyIcons/2.png",
-          "point": "*Crea* una *cuenta* de *Google anónima*"
-        },
-        {
-          "icon": "/img/Finales/BulletsPoint/Android/OnlyIcons/3.png",
-          "point": "*Protección total* de tu móvil *Android*"
-        },
-        {
-          "icon": "/img/Finales/BulletsPoint/Android/OnlyIcons/4.png",
-          "point": "*Configuración* de *máxima* seguridad y *privacidad*"
-        },
-        {
-          "icon": "/img/Finales/BulletsPoint/Android/OnlyIcons/5.png",
-          "point": "*Instalación* y configuración de *GrapheneOS*"
-        },
-        {
-          "icon": "/img/Finales/BulletsPoint/Android/OnlyIcons/6.png",
-          "point": "*Elimina* toda la *telemetría espía*"
-        }
-      ],
-      "details": true,
-      "problem": {
-        "title": "",
-        "content": ""
-      },
-      "solution": {
-        "title": "",
-        "content": ""
-      },
-      "features": [
-        {
-          "title": "Privacidad Total en tu iPhone",
-          "content": "Apple no es tan privada como te lo han vendido. Si no lo configuras bien tu iPhone sigue siendo un coladero de datos, básicamente porque tu Apple ID lo recoge todo de ti. Lo bueno es que blindarlo mejor que el móvil del presidente es posible, con ajustes sencillos..",
-          "order": 1,
-          "button": "",
-          "img": "/img/Finales/Modulos/iPhone/Privacidad Total en tu iPhone.png"
-        },
-        {
-          "title": "Formación paso a paso, sin complicaciones",
-          "content": "No necesitas conocimiento técnico. Solo seguir los vídeos paso a paso del curso donde te enseño a limpiar tu iPhone de telemetría espía, configurar perfiles para cifrado DNS y proteger cualquier conexión de tu teléfono móvil.",
-          "order": 0,
-          "button": "Obtener acceso",
-          "img": "/img/Finales/Modulos/iPhone/Formación paso a paso.png"
-        },
-        {
-          "title": "Cuentas anónimas: Apple ID",
-          "content": "Al final del curso recibirás un eBook con todos los ajustes que debes tener configurados en tu iPhone, para que puedas descargarlo para poder consultarlo de por vida.",
-          "order": 1,
-          "button": "",
-          "img": "/img/Finales/Modulos/iPhone/Cuentas anónimas.png"
-        },
-        {
-          "title": "Ebook de privacidad para siempre",
-          "content": "No necesitas conocimiento técnico. Solo seguir los vídeos paso a paso del curso donde te enseño a limpiar tu iPhone de telemetría espía, configurar perfiles para cifrado DNS y proteger cualquier conexión de tu teléfono móvil.",
-          "order": 0,
-          "button": "",
-          "img": "/img/Finales/Modulos/iPhone/Ebook de privacidad.png"
-        }
-      ],
-      "personalNote": {
-        "img": "https://pbs.twimg.com/profile_images/1738914330823798784/YzTyYwez_400x400.jpg",
-        "title": "Nota Personal",
-        "note": "Hay que admitir que Apple construye buenos móviles, pero vende una privacidad inexistente. Eres esclavo de un Apple ID sin el cual no puedes instalar nada de la App Store. Por eso cualquier experto en privacidad te dirá que todo empieza por anonimizar ese Apple ID y luego configurar el móvil con trucos que pocos usuarios de Apple conocen, pero que pueden protegerlos contra ciber-ataques sofisticados como Pegasus.."
-      },
-      "pricing": [
-        {
-          "title": "Plan Estándar",
-          "price": 127,
-          "currency": "€",
-          "description": "Incluye:",
-          "points": [
-            "Curso Bunkeriza tu iPhone - €127",
-            "eBook de Privacidad iPhone - Incluido"
-          ],
-          "textButton": "Obtener",
-          "redirectTo": "https://pay.hotmart.com/M98315225T?checkoutMode=10&bid=1746025453286",
-          "payType": [
-            {
-              "type": "Visa",
-              "icon": "visa"
-            },
-            {
-              "type": "Mastercard",
-              "icon": "master"
-            },
-            {
-              "type": "Amex",
-              "icon": "amex"
-            },
-            {
-              "type": "PayPal",
-              "icon": "paypal"
-            },
-            {
-              "type": "Google pay",
-              "icon": "gpay"
-            }
-          ],
-          "icon": [
-            {
-              "icon": "apple",
-              "color": "#fff"
-            }
-          ]
-        },
-        {
-          "title": "Pack Privacidad Total Apple",
-          "price": [
-            284,
-            227
-          ],
-          "currency": "€",
-          "description": "Incluye:",
-          "points": [
-            "Curso Bunkeriza tu iPhone - €127",
-            "Curso Blinda tu Mac - €157",
-            "eBook Privacidad iPhone - Incluido"
-          ],
-          "textButton": "Obtener",
-          "redirectTo": "https://pay.hotmart.com/Y99485541C?checkoutMode=10&bid=1746025481714",
-          "payType": [
-            {
-              "type": "Visa",
-              "icon": "visa"
-            },
-            {
-              "type": "Mastercard",
-              "icon": "master"
-            },
-            {
-              "type": "Amex",
-              "icon": "amex"
-            },
-            {
-              "type": "PayPal",
-              "icon": "paypal"
-            },
-            {
-              "type": "Google pay",
-              "icon": "gpay"
-            }
-          ],
-          "icon": [
-            {
-              "icon": "apple",
-              "color": "#fff"
-            },
-            {
-              "icon": "mac",
-              "color": "#fff"
-            }
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "question": "¿Cuanto dura el curso?",
-          "answer": "Los más de 10 módulos y sus respectivas lecciones se liberan de forma paulatina a lo largo de 2 semanas para asegurar que vayas aplicando todo sin agobios. Tendrás acceso sin restricciones a todo el contenido durante 2 meses."
-        },
-        {
-          "question": "¿Necesito conocimientos previos?",
-          "answer": "No, da igual tu edad o conocimiento, no harás nada complicado que requiera de especialización técnica. Los videos te guían paso a paso usando programas sencillos de utilizar, y en los casos de programas algo más completos te damos las configuraciones pre-hechas por nosotros para que solo tengas que copiar y pegar."
-        },
-        {
-          "question": "¿Necesito saber programar?",
-          "answer": "No, no vas a tocar una sola línea de código. Aprenderás a usar programas que lo harán todo increíblemente fácil para ti, por eso este curso es para cualquier persona independientemente de su punto de partida en tecnología"
-        },
-        {
-          "question": "¿Qué voy a aprender?",
-          "answer": "Desde bloquear cualquier espionaje sobre tu conexión a internet o lo que haces en tu móvil, hasta bloquear intentos de robos de datos avanzados con poderosos sistemas de aislamiento de aplicaciones, para que, en caso de ser infectado, no se venga abajo tu vida por filtraciones de datos indeseadas. Máxima privacidad y seguridad para tu iPhone."
         }
       ],
       "SuccessCasesSection": [
