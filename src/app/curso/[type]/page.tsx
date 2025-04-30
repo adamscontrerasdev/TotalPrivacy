@@ -6,7 +6,7 @@ import React from "react";
 
 const cursos: Product[] = data.cursos ?? [];
 const validTypes = cursos
-  .map((item) => item.key?.trim())
+  .map((item) => item.key?.trim().toLowerCase())
   .filter((key): key is string => key !== undefined);
 
 export async function generateStaticParams() {
@@ -18,13 +18,14 @@ export default async function DetailsPage({
 }: {
   params: Promise<{ type: string }>;
 }) {
-  // Esperar a que el parámetro se resuelva completamente antes de usarlo
   const resolvedParams = await Promise.resolve(params);
   const typeValue = await resolvedParams.type;
 
-  const type = typeof typeValue === "string" ? typeValue.trim() : "";
+  const type = typeof typeValue === "string" ? typeValue.trim().toLowerCase() : "";
 
-  const productRaw = cursos.find((item) => item.key === type);
+  const productRaw = cursos.find(
+    (item) => item.key?.trim().toLowerCase() === type
+  );
 
   if (!productRaw) {
     notFound();
