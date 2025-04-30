@@ -149,7 +149,10 @@
         },
         {
           "title": "Pack Privacidad Total Apple",
-          "price": [284, 227],
+          "price": [
+            284,
+            227
+          ],
           "currency": "€",
           "description": "Incluye:",
           "points": [
@@ -323,7 +326,9 @@
           "price": 157,
           "currency": "€",
           "description": "Incluye:",
-          "points": ["Curso Blinda tu Mac - €157"],
+          "points": [
+            "Curso Blinda tu Mac - €157"
+          ],
           "textButton": "Obtener",
           "redirectTo": "https://pay.hotmart.com/I97433852A?checkoutMode=10&bid=1746028250733",
           "payType": [
@@ -357,7 +362,10 @@
         },
         {
           "title": "Pack Privacidad Total Apple",
-          "price": [284, 227],
+          "price": [
+            284,
+            227
+          ],
           "currency": "€",
           "description": "Incluye: ",
           "points": [
@@ -540,7 +548,9 @@
           "price": 157,
           "currency": "€",
           "description": "Incluye:",
-          "points": ["Curso Blinda tu Windows - €157"],
+          "points": [
+            "Curso Blinda tu Windows - €157"
+          ],
           "textButton": "Obtener",
           "redirectTo": "https://pay.hotmart.com/Y97437543N?checkoutMode=10&bid=1746028195196",
           "payType": [
@@ -574,7 +584,10 @@
         },
         {
           "title": "Plan Privacidad 360",
-          "price": [284, 227],
+          "price": [
+            284,
+            227
+          ],
           "currency": "€",
           "description": "Incluye:",
           "points": [
@@ -728,28 +741,28 @@
           "content": "Google es la empresa más espía del mundo, y tu Android le pertenece si no lo configuras adecuadamente. ¿Te sorprende que tu móvil te escuche? Pues espera a ver porque cuando hagas el curso. La ventaja que tienes es que Android permite gran configurabilidad, y lo puedes transformar en un auténtico Búnker..",
           "order": 1,
           "button": "",
-          "img": "/img/Finales/Modulos/Android/Máxima privacidad en Android.png"
+          "img": ""
         },
         {
           "title": "Formación paso a paso, sin complicaciones",
           "content": "No necesitas conocimiento técnico. Solo seguir los vídeos paso a paso del curso donde te enseño a limpiar tu Android de telemetría espía, configurar perfiles para cifrado DNS y proteger cualquier conexión de tu teléfono móvil a todos los niveles, incluyen enrolamiento proxy a TOR e i2P.",
           "order": 0,
           "button": "Obtener acceso",
-          "img": "/img/Finales/Modulos/Android/Formación paso a paso.png"
+          "img": ""
         },
         {
           "title": "Cuentas anónimas: Google",
           "content": "Puedes incluso usar un Android con cuentas de Google anónimas usando proxy-stores como Aurora (te cuento más dentro), lo que si tengo que decirte es que te voy a enseñar a crear cuentas online totalmente privadas, usando de ejemplo al propio Google, gmail y todo su ecosistema..",
           "order": 1,
           "button": "",
-          "img": "/img/Finales/Modulos/Android/Cuentas anónimas.png"
+          "img": ""
         },
         {
           "title": "Ebook de privacidad para siempre",
           "content": "Al final del curso recibirás un eBook con todos los ajustes que debes tener configurados en tu Android, para que puedas descargarlo y consultarlo de por vida.",
           "order": 0,
           "button": "",
-          "img": "/img/Finales/Modulos/Android/Ebook de privacidad.png"
+          "img": ""
         }
       ],
       "personalNote": {
@@ -800,7 +813,10 @@
         },
         {
           "title": "Pack Privacidad 360",
-          "price": [284, 227],
+          "price": [
+            284,
+            227
+          ],
           "currency": "€",
           "description": "Incluye:",
           "points": [
