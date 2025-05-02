@@ -1,53 +1,44 @@
+"use client";
 import { Product } from "@/app/Elements";
 import React from "react";
 import {
   Subtitle,
   Title,
   ButtonVSL,
-  SocialProof,
   RenderVideoProduct,
   ContainerSections,
 } from "../components";
+import { SystemLine } from "../components/SystemLine";
 
 interface Props {
   product: Product;
   socialText: string;
 }
 
-export const HeroSection: React.FC<Props> = ({ product, socialText }) => {
-  if (
-    !product ||
-    !product.title ||
-    !product.description ||
-    !product.video ||
-    socialText
-  )
+export const HeroSection: React.FC<Props> = ({ product }) => {
+  // Early return durante el renderizado del servidor o si faltan props
+  if (!product || !product.title || !product.description || !product.video) {
     return null;
-
-  return (
-    <ContainerSections>
-      <div className="w-full max-w-80 sm:max-w-2xl lg:max-w-4xl flex flex-col items-center gap-3 ">
-        <Title text={product.title}></Title>
-        <Subtitle text={product.description}></Subtitle>
-      </div>
-      <div className="w-full max-w-80 sm:max-w-2xl flex flex-col items-center gap-3 text-white">
-        <ButtonVSL
-          value={"Obtener"}
-          variant="primary"
-          redirect={product.payButtons?.[0].link}
-        />
-        {socialText && socialText !== "" && (
-          <div className="">
-            <div className="md:hidden">
-              <SocialProof text={socialText} avatarsView={2} />
-            </div>
-            <div className="hidden md:block">
-              <SocialProof text={socialText} avatarsView={4} />
-            </div>
-          </div>
-        )}
-      </div>
-      <RenderVideoProduct video={product.video} />
-    </ContainerSections>
-  );
+  } else {
+    return (
+      <ContainerSections>
+        <div className="w-full max-w-80 sm:max-w-2xl lg:max-w-4xl flex flex-col items-center gap-3">
+          <Title text={product?.title || ""}></Title>
+          <Subtitle text={product?.description || ""}></Subtitle>
+        </div>
+        {/* Minimal version for SSR */}
+        <div className="w-full max-w-80 sm:max-w-2xl flex flex-col items-center gap-3 text-white">
+          {product?.payButtons?.[0]?.link && (
+            <ButtonVSL
+              value={"Obtener"}
+              variant="primary"
+              redirect={product.payButtons[0].link}
+            />
+          )}
+        </div>
+        {product?.video && <RenderVideoProduct video={product.video} />}
+        <SystemLine />
+      </ContainerSections>
+    );
+  }
 };

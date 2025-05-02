@@ -1,5 +1,6 @@
 export * from "./SocialProof";
 export * from "./RenderVideoProduct";
+export * from "./SystemLine";
 
 // Common components
 export * from "./common/ButtonVSL";

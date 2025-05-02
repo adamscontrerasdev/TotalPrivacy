@@ -61,7 +61,7 @@ const BulletsPointsSection: React.FC<Props> = ({ product }) => {
 
   return (
     <ContainerSections>
-      <div className="grid grid-cols-3 gap-4 place-items-start md:place-items-center  p-4 w-full max-w-5xl">
+      <div className="grid grid-cols-3 gap-4 place-items-start md:place-items-center  p-4 w-full max-w-5xl bg-g">
         {points.map((point, index) => (
           <PointItem key={index} point={point} />
         ))}
