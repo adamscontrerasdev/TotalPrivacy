@@ -36,7 +36,9 @@ export const HeroSection: React.FC<Props> = ({ product }) => {
             />
           )}
         </div>
-        {product?.video && <RenderVideoProduct video={product.video} />}
+        {product?.video && (
+          <RenderVideoProduct video={product.video} poster={product.poster} />
+        )}
         <SystemLine />
       </ContainerSections>
     );
