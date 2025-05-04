@@ -18,7 +18,7 @@ export const RenderVideoProduct: React.FC<Props> = ({ video, poster }) => {
           observer.disconnect();
         }
       },
-      { threshold: 0.1 }
+      { threshold: 0.1 },
     );
 
     if (ref.current) {
