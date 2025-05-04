@@ -79,7 +79,7 @@ export const RenderVideoProduct: React.FC<Props> = ({ video, poster }) => {
           <iframe
             ref={iframeRef}
             onLoad={() => setIframeLoaded(true)}
-            src={`https://iframe.mediadelivery.net/embed/411945/${video}?autoplay=false&loop=false&muted=false&preload=true&responsive=true`}
+            src={`https://iframe.mediadelivery.net/embed/411945/${video}?autoplay=false&loop=false&muted=false&preload=false&responsive=true`}
             loading="lazy"
             style={{
               border: "0",
