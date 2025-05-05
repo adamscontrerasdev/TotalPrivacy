@@ -5,7 +5,7 @@ import { Product } from "@/app/Elements";
 import React from "react";
 
 const cursos = data.cursos ?? [];
-const validTypes = cursos.map((item) => item.key.trim().toLowerCase());
+const validTypes = cursos.map((item) => item.key.trim());
 
 export async function generateStaticParams() {
   return validTypes.map((type) => ({ type }));
@@ -16,15 +16,13 @@ export default async function DetailsPage({
 }: {
   params: Promise<{ type: string }>;
 }) {
+  // Esperar a que el parámetro se resuelva completamente antes de usarlo
   const resolvedParams = await Promise.resolve(params);
   const typeValue = await resolvedParams.type;
 
-  const type =
-    typeof typeValue === "string" ? typeValue.trim().toLowerCase() : "";
+  const type = typeof typeValue === "string" ? typeValue.trim() : "";
 
-  const productRaw = cursos.find(
-    (item) => item.key.trim().toLowerCase() === type,
-  );
+  const productRaw = cursos.find((item) => item.key === type);
 
   if (!productRaw) {
     notFound();
