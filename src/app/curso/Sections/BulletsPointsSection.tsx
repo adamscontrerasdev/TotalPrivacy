@@ -23,7 +23,7 @@ const parseBoldText = (text: string) => {
     parts.push(
       <strong key={`bold-${match.index}`} className="font-bold text-white">
         {match[1]}
-      </strong>
+      </strong>,
     );
 
     lastIndex = regex.lastIndex;
