@@ -4,6 +4,7 @@ import React from "react";
 import { ContainerSections } from "../components";
 import { Points, Product } from "@/app/Elements";
 import { Line } from "../components/common/Line";
+import Image from "next/image";
 
 interface Props {
   product: Product;
@@ -40,15 +41,19 @@ const PointItem: React.FC<{ point: Points }> = ({ point }) => {
   const parsedText = parseBoldText(point.point || "");
 
   return (
-    <div className="md:w-52  aspect-square rounded-3xl flex flex-col items-center justify-center transition-all duration-300 ease-in-out gap-2">
-      <img
-        src={point.icon}
-        alt="icon"
-        className="w-full h-full rounded-2xl"
-        style={{
-          boxShadow: "0px 0px 50px #0083ff33",
-        }}
-      />
+    <div className="md:w-52 aspect-square rounded-3xl flex flex-col items-center justify-center transition-all duration-300 ease-in-out gap-2">
+      <div className="w-full h-full relative rounded-2xl overflow-hidden">
+        <Image
+          src={point.icon || ""}
+          alt="icon"
+          fill
+          className="object-cover rounded-2xl"
+          style={{
+            boxShadow: "0px 0px 50px #0083ff33",
+          }}
+          quality={90}
+        />
+      </div>
       <p className="text-[10px] md:text-base text-white text-center">
         {parsedText}
       </p>
