@@ -18,9 +18,8 @@ const FeaturesCard: React.FC<FeaturesCardProps> = ({ feature, payButtons }) => {
 
   return (
     <div
-      className={`w-full flex flex-col-reverse md:h-80 ${
-        order === 1 ? "md:flex-row" : "md:flex-row-reverse"
-      } gap-10`}
+      className={`w-full flex flex-col-reverse md:h-80 ${order === 1 ? "md:flex-row" : "md:flex-row-reverse"
+        } gap-10`}
     >
       <div className="w-full md:w-1/2 flex flex-col justify-center items-start gap-4">
         <h2 className="text-xl md:text-4xl text-white font-bold text-left">
@@ -30,12 +29,8 @@ const FeaturesCard: React.FC<FeaturesCardProps> = ({ feature, payButtons }) => {
           {content}
         </p>
         {button && button !== "" && (
-          <ButtonVSL
-            value={button}
-            sm={false}
-            variant="primary"
-            redirect={payButtons && payButtons[0].link}
-          />
+          <ButtonVSL BuyButton value="Ver Planes" />
+
         )}
       </div>
       <div

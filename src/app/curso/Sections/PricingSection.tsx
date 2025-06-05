@@ -5,6 +5,7 @@ import { iconsMap } from "@/app/Elements/types/MapIcons";
 import { RiVisaLine, RiMastercardLine, RiPaypalFill } from "react-icons/ri";
 import { FaCcAmex, FaGooglePay } from "react-icons/fa6";
 import { IoLogoBitcoin } from "react-icons/io";
+import { Line } from "../components/common/Line";
 
 interface Props {
   product?: Product;
@@ -183,9 +184,8 @@ const MultiplePlanCard: React.FC<{
 
       {/* Card principal */}
       <div
-        className={`relative z-10 flex flex-col justify-between p-6 rounded-3xl border text-white transition-all transform hover:scale-105 duration-300 bg-black/50 backdrop-blur-xl ${
-          isFeatured ? "shadow-xl scale-[1.02] border-2" : "shadow-md"
-        }`}
+        className={`relative z-10 flex flex-col justify-between p-6 rounded-3xl border text-white transition-all transform hover:scale-105 duration-300 bg-black/50 backdrop-blur-xl ${isFeatured ? "shadow-xl scale-[1.02] border-2" : "shadow-md"
+          }`}
         style={{
           borderColor: primaryColor,
           boxShadow: isFeatured
@@ -249,9 +249,9 @@ const MultiplePlanCard: React.FC<{
           </div>
 
           <ButtonVSL
-            value={plan.textButton}
-            variant="primary"
-            redirect={plan.redirectTo}
+            PayButton={plan.redirectTo}
+            variant={"primary"}
+            value={"Obtener"}
           />
 
           <div className="flex items-center gap-3 text-sm opacity-60 flex-wrap justify-center ">
@@ -276,11 +276,13 @@ export const PricingSection: React.FC<Props> = ({ product }) => {
     ? product.pricing.length > 1
     : false;
 
+  const btcPay = product?.payButtons?.find(button => button.type === "Bitcoin")?.link || "";
+
   if (!product || !product.pricing) return null;
 
   return (
-    <ContainerSections>
-      <div className="w-full max-w-7xl flex flex-col gap-40 rounded-2xl justify-center items-center">
+    <ContainerSections id="pricing">
+      <div className="w-full max-w-7xl flex flex-col gap-40 rounded-2xl justify-center items-center pt-20">
         <Title
           text={
             product
@@ -302,6 +304,19 @@ export const PricingSection: React.FC<Props> = ({ product }) => {
             ))}
         </div>
       </div>
+
+      <Title text="Otros métodos de acceso" />
+      <div className="">
+        <ButtonVSL
+          PayButton={btcPay}
+          value="Bitcoin"
+          variant="secondary"
+          ico
+          className="shadow-[0_0_10px_-2px_#F7931A] hover:shadow-[0_0_20px_-3px_#F7931A]"
+          blank
+        />
+      </div>
+      <Line color="#0083ff" />
     </ContainerSections>
   );
 };

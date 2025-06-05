@@ -29,11 +29,8 @@ export const HeroSection: React.FC<Props> = ({ product }) => {
         {/* Minimal version for SSR */}
         <div className="w-full max-w-80 sm:max-w-2xl flex flex-col items-center gap-3 text-white">
           {product?.payButtons?.[0]?.link && (
-            <ButtonVSL
-              value={"Obtener"}
-              variant="primary"
-              redirect={product.payButtons[0].link}
-            />
+            <ButtonVSL BuyButton value="Ver Planes" />
+
           )}
         </div>
         {product?.video && (

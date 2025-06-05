@@ -26,7 +26,7 @@
         {
           "type": "Bitcoin",
           "text": "Obtener con Bitcoin",
-          "link": "https://pay.hotmart.com/I97433852A",
+          "link": "https://btcpay0.voltageapp.io/apps/dz9gvXgHTinih9CZBYSRwov77Uo/pos",
           "var": "secondary"
         }
       ],
@@ -149,7 +149,10 @@
         },
         {
           "title": "Pack Privacidad Total Apple",
-          "price": [284, 227],
+          "price": [
+            284,
+            227
+          ],
           "currency": "€",
           "description": "Incluye:",
           "points": [
@@ -251,7 +254,7 @@
         {
           "type": "Bitcoin",
           "text": "Obtener con Bitcoin",
-          "link": "",
+          "link": "https://btcpay0.voltageapp.io/apps/dz9gvXgHTinih9CZBYSRwov77Uo/pos",
           "var": "secondary"
         }
       ],
@@ -323,7 +326,9 @@
           "price": 157,
           "currency": "€",
           "description": "Incluye:",
-          "points": ["Curso Blinda tu Mac - €157"],
+          "points": [
+            "Curso Blinda tu Mac - €157"
+          ],
           "textButton": "Obtener",
           "redirectTo": "https://pay.hotmart.com/I97433852A?checkoutMode=10&bid=1746028250733",
           "payType": [
@@ -357,7 +362,10 @@
         },
         {
           "title": "Pack Privacidad Total Apple",
-          "price": [284, 227],
+          "price": [
+            284,
+            227
+          ],
           "currency": "€",
           "description": "Incluye: ",
           "points": [
@@ -461,7 +469,7 @@
         {
           "type": "Bitcoin",
           "text": "Obtener con Bitcoin",
-          "link": "",
+          "link": "https://btcpay0.voltageapp.io/apps/C1weFgWXELzn71qhSLDREmqURM8/pos",
           "var": "secondary"
         }
       ],
@@ -540,7 +548,9 @@
           "price": 157,
           "currency": "€",
           "description": "Incluye:",
-          "points": ["Curso Blinda tu Windows - €157"],
+          "points": [
+            "Curso Blinda tu Windows - €157"
+          ],
           "textButton": "Obtener",
           "redirectTo": "https://pay.hotmart.com/Y97437543N?checkoutMode=10&bid=1746028195196",
           "payType": [
@@ -574,7 +584,10 @@
         },
         {
           "title": "Plan Privacidad 360",
-          "price": [284, 227],
+          "price": [
+            284,
+            227
+          ],
           "currency": "€",
           "description": "Incluye:",
           "points": [
@@ -677,7 +690,7 @@
         {
           "type": "Bitcoin",
           "text": "Obtener con Bitcoin",
-          "link": "",
+          "link": "https://btcpay0.voltageapp.io/apps/C1weFgWXELzn71qhSLDREmqURM8/pos",
           "var": "secondary"
         }
       ],
@@ -800,7 +813,10 @@
         },
         {
           "title": "Pack Privacidad 360",
-          "price": [284, 227],
+          "price": [
+            284,
+            227
+          ],
           "currency": "€",
           "description": "Incluye:",
           "points": [

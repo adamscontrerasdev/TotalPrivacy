@@ -3,6 +3,7 @@ interface ContainerSectionsProps {
   children: ReactNode;
   id?: string;
   bg?: boolean;
+
 }
 export const ContainerSections: React.FC<ContainerSectionsProps> = ({
   children,
