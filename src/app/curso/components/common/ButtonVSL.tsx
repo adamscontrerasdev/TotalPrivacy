@@ -54,8 +54,8 @@ export const ButtonVSL: React.FC<Props> = ({
         variant === "secondary"
           ? "text-white"
           : variant === "tertiary"
-          ? "text-black"
-          : "text-white"
+            ? "text-black"
+            : "text-white"
       } md:text-lg lg:text-xl max-w-52 cursor-pointer hover:scale-105 transition-all duration-300 ease-in-out active:scale-95 ${className} font-bold ${
         ico
           ? "flex items-center gap-2 justify-center border-[1px] border-[#F7931A]"
@@ -66,8 +66,8 @@ export const ButtonVSL: React.FC<Props> = ({
           variant === "secondary"
             ? secondaryGradient
             : variant === "tertiary"
-            ? tertiaryGradient
-            : primaryGradient,
+              ? tertiaryGradient
+              : primaryGradient,
       }}
       onClick={handleClick}
     >

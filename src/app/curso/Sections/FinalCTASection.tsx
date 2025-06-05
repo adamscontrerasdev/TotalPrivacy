@@ -13,9 +13,12 @@ interface Props {
 }
 
 export const FinalCTASection: React.FC<Props> = ({ product }) => {
-  const btcPay = product?.payButtons?.find(button => button.type === "Bitcoin")?.link || "";
-  const cardPay = product?.payButtons?.find(button => button.type === "tarjeta")?.link || "";
-
+  const btcPay =
+    product?.payButtons?.find((button) => button.type === "Bitcoin")?.link ||
+    "";
+  const cardPay =
+    product?.payButtons?.find((button) => button.type === "tarjeta")?.link ||
+    "";
 
   return (
     <ContainerSections>

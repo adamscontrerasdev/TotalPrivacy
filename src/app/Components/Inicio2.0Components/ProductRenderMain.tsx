@@ -45,7 +45,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           onClick={() => (location.href = `curso/${product?.key}`)}
           className="w-full max-w-32"
         >
-          <ButtonVSL value="Ver Curso" sm />
+          <ButtonVSL value="Ver Curso" />
         </div>
       </div>
       <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">

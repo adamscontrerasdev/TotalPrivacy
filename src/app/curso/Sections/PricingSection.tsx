@@ -184,8 +184,7 @@ const MultiplePlanCard: React.FC<{
 
       {/* Card principal */}
       <div
-        className={`relative z-10 flex flex-col justify-between p-6 rounded-3xl border text-white transition-all transform hover:scale-105 duration-300 bg-black/50 backdrop-blur-xl ${isFeatured ? "shadow-xl scale-[1.02] border-2" : "shadow-md"
-          }`}
+        className={`relative z-10 flex flex-col justify-between p-6 rounded-3xl border text-white transition-all transform hover:scale-105 duration-300 bg-black/50 backdrop-blur-xl ${isFeatured ? "shadow-xl scale-[1.02] border-2" : "shadow-md"}`}
         style={{
           borderColor: primaryColor,
           boxShadow: isFeatured
@@ -276,7 +275,9 @@ export const PricingSection: React.FC<Props> = ({ product }) => {
     ? product.pricing.length > 1
     : false;
 
-  const btcPay = product?.payButtons?.find(button => button.type === "Bitcoin")?.link || "";
+  const btcPay =
+    product?.payButtons?.find((button) => button.type === "Bitcoin")?.link ||
+    "";
 
   if (!product || !product.pricing) return null;
 
