@@ -26,7 +26,7 @@
         {
           "type": "Bitcoin",
           "text": "Obtener con Bitcoin",
-          "link": "https://pay.hotmart.com/I97433852A",
+          "link": "https://btcpay0.voltageapp.io/apps/dz9gvXgHTinih9CZBYSRwov77Uo/pos",
           "var": "secondary"
         }
       ],
@@ -251,7 +251,7 @@
         {
           "type": "Bitcoin",
           "text": "Obtener con Bitcoin",
-          "link": "",
+          "link": "https://btcpay0.voltageapp.io/apps/dz9gvXgHTinih9CZBYSRwov77Uo/pos",
           "var": "secondary"
         }
       ],
@@ -461,7 +461,7 @@
         {
           "type": "Bitcoin",
           "text": "Obtener con Bitcoin",
-          "link": "",
+          "link": "https://btcpay0.voltageapp.io/apps/C1weFgWXELzn71qhSLDREmqURM8/pos",
           "var": "secondary"
         }
       ],
@@ -677,7 +677,7 @@
         {
           "type": "Bitcoin",
           "text": "Obtener con Bitcoin",
-          "link": "",
+          "link": "https://btcpay0.voltageapp.io/apps/C1weFgWXELzn71qhSLDREmqURM8/pos",
           "var": "secondary"
         }
       ],
